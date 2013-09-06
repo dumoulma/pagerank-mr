@@ -1,4 +1,4 @@
-package ca.ulaval.graal.pagerank.drivers;
+package ca.ulaval.ift.graal.pagerank.drivers;
 
 import java.io.IOException;
 
@@ -17,16 +17,16 @@ import org.apache.hadoop.util.ToolRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ca.ulaval.graal.pagerank.mapreduce.PagerankMapper;
-import ca.ulaval.graal.pagerank.mapreduce.PagerankReducer;
-import ca.ulaval.graal.pagerank.parseurl.mapreduce.ParseUrlMapper;
-import ca.ulaval.graal.pagerank.parseurl.mapreduce.ParseUrlReducer;
+import ca.ulaval.ift.graal.pagerank.mapreduce.PagerankMapper;
+import ca.ulaval.ift.graal.pagerank.mapreduce.PagerankReducer;
+import ca.ulaval.ift.graal.pagerank.parseurl.mapreduce.ParseUrlMapper;
+import ca.ulaval.ift.graal.pagerank.parseurl.mapreduce.ParseUrlReducer;
 
 public class PagerankMRDriver extends Configured implements Tool {
     private static final Logger LOG = LoggerFactory.getLogger(PagerankMRDriver.class);
 
     private static final String DATA_PATH = "data/parsed_crawl_data.seq";
-    private static final int MAX_ITERATIONS = 20;
+    private static final int MAX_ITERATIONS = 50;
 
     public static void main(String[] args) throws Exception {
         int exitCode = ToolRunner.run(new PagerankMRDriver(), args);
@@ -40,17 +40,17 @@ public class PagerankMRDriver extends Configured implements Tool {
         Configuration conf = getConf();
         FileSystem fs = FileSystem.get(conf);
 
-        conf.setFloat("damping.factor", 0.15f);
+        conf.setFloat("damping.factor", 0.85f);
+        conf.setFloat("error.threshold", 0.01f);
         Path parsedIntputPath = new Path(DATA_PATH);
         Path parsedOutputPath = new Path("data/pagerank/initial");
         parseCrawlData(conf, "Pagerank: Parse URL data job", parsedIntputPath, parsedOutputPath);
 
         int iteration = 1;
-        boolean iterationWasSuccessful = true;
-        // boolean hasConverged = false;
+        boolean hasConverged = false;
         Path inputPath = parsedOutputPath;
-        while (iteration < MAX_ITERATIONS && iterationWasSuccessful) {
-            LOG.info("Pagerank iteration #" + iteration);
+        while (iteration < MAX_ITERATIONS && !hasConverged) {
+            LOG.info("ITERATION #" + iteration);
 
             conf.setInt("current.iteration", iteration);
 
@@ -58,18 +58,10 @@ public class PagerankMRDriver extends Configured implements Tool {
             if (fs.exists(outputPath))
                 fs.delete(outputPath, true);
             String jobname = "Pagerank computation job iteration " + iteration;
-            iterationWasSuccessful = runPagerankIteration(conf, jobname, inputPath, outputPath);
+            hasConverged = runPagerankIteration(conf, jobname, inputPath, outputPath);
 
             iteration++;
             inputPath = outputPath;
-            // long convergenceCounter = job.getCounters()
-            // .findCounter(PagerankReducer.Counter.CONVERGED).getValue();
-            // LOG.info("PagerankReducer Counter: " + convergenceCounter);
-
-            // if (convergenceCounter - oldCounter == K) {
-            // hasConverged = true;
-            // LOG.info("Converged!!");
-            // }
         }
 
         return JobStatus.SUCCEEDED;
@@ -120,6 +112,14 @@ public class PagerankMRDriver extends Configured implements Tool {
         job.setOutputFormatClass(SequenceFileOutputFormat.class);
         SequenceFileOutputFormat.setOutputPath(job, output);
 
-        return job.waitForCompletion(true);
+        boolean completed = job.waitForCompletion(true);
+        if (!completed)
+            throw new IOException("job has not completed successfully!");
+
+        long convergenceCounter = job.getCounters().findCounter(PagerankReducer.Counter.CONVERGED)
+                .getValue();
+        LOG.info("PagerankReducer Counter: " + convergenceCounter);
+
+        return convergenceCounter >= 100 ? true : false;
     }
 }

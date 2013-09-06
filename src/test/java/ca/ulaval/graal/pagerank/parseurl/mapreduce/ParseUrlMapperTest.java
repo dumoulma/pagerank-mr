@@ -10,10 +10,8 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import ca.ulaval.graal.pagerank.parseurl.mapreduce.ParseUrlMapper;
-
+import ca.ulaval.ift.graal.pagerank.parseurl.mapreduce.ParseUrlMapper;
 import static org.mockito.Matchers.anyObject;
-
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 

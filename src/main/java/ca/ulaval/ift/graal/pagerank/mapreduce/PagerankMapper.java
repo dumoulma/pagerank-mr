@@ -1,4 +1,4 @@
-package ca.ulaval.graal.pagerank.mapreduce;
+package ca.ulaval.ift.graal.pagerank.mapreduce;
 
 import java.io.IOException;
 
@@ -12,12 +12,12 @@ public class PagerankMapper extends Mapper<Text, Text, Text, Text> {
 
     @Override
     public void map(Text key, Text value, Context context) throws IOException, InterruptedException {
-        LOG.info("Key: " + key.toString() + " value: " + value.toString());
+        LOG.debug("Key: " + key.toString() + " value: " + value.toString());
 
         String[] outlinks = value.toString().split(";");
         double pagerank = Double.parseDouble(outlinks[0]);
         int outlinkCount = outlinks.length - 1;
-        LOG.info("pagerank: " + pagerank + " outlinkCount: " + outlinkCount);
+        LOG.debug("pagerank: " + pagerank + " outlinkCount: " + outlinkCount);
 
         Text value2 = new Text();
         Text key2 = new Text();
@@ -27,7 +27,7 @@ public class PagerankMapper extends Mapper<Text, Text, Text, Text> {
             value2.set(key.toString() + ";" + pagerank + ";" + outlinkCount);
             context.write(key2, value2);
 
-            LOG.info("Key2: " + key2.toString() + " value2: " + value2.toString());
+            LOG.debug("Key2: " + key2.toString() + " value2: " + value2.toString());
         }
     }
 }

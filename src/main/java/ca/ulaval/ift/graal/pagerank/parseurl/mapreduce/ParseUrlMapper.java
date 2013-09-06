@@ -1,4 +1,4 @@
-package ca.ulaval.graal.pagerank.parseurl.mapreduce;
+package ca.ulaval.ift.graal.pagerank.parseurl.mapreduce;
 
 import java.io.IOException;
 

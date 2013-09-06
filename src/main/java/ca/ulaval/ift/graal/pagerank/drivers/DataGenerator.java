@@ -1,4 +1,4 @@
-package ca.ulaval.graal.pagerank.drivers;
+package ca.ulaval.ift.graal.pagerank.drivers;
 
 import java.io.File;
 import java.io.FileReader;
@@ -27,9 +27,9 @@ public class DataGenerator extends Configured implements Tool {
 
     private static final String INTPUT_VOCAB_FILENAME = "data/vocab/english_words.txt";
     private static final String OUTPUT_SEQ_FILENAME = "data/parsed_crawl_data.seq";
-    private static final int MAX_URLS = 20;
-    private static final int MAX_OUTLINKS = 3;
-    private static final int MAX_URL_LENGTH = 2;
+    private static final int MAX_URLS = 100;
+    private static final int MAX_OUTLINKS = 4;
+    private static final int MAX_WORDS_IN_URL = 2;
     private static Random random = new Random();
 
     public static void main(String[] args) throws Exception {
@@ -79,7 +79,7 @@ public class DataGenerator extends Configured implements Tool {
     private List<String> generateUrls(List<String> words, List<String> domains) {
         List<String> urls = new ArrayList<>();
         for (int i = 0; i < MAX_URLS; i++) {
-            int nWords = random.nextInt(MAX_URL_LENGTH) + 1;
+            int nWords = random.nextInt(MAX_WORDS_IN_URL) + 1;
             StringBuilder url = new StringBuilder("http://www");
             for (int j = 0; j < nWords; j++) {
                 int wordIndex = random.nextInt(words.size());
@@ -103,24 +103,28 @@ public class DataGenerator extends Configured implements Tool {
         for (String url : urls) {
             key.set(url);
             int nOutLinks = random.nextInt(MAX_OUTLINKS);
-            StringBuilder outlinks = new StringBuilder();
+            if (nOutLinks == 0)
+                nOutLinks += random.nextInt(MAX_OUTLINKS);
+            
+            List<String> outlinks = new ArrayList<>();
             for (int i = 0; i < nOutLinks; i++) {
                 int outLinkIndex = random.nextInt(urls.size());
                 String outlink = urls.get(outLinkIndex);
                 while (outlink.equals(url))
                     outlink = urls.get(random.nextInt(urls.size()));
-
-                if (outlink.isEmpty()) {
-                    LOG.warn("EMPTY OUTLINK FOUND?! guilty index: " + outLinkIndex);
-                    i--;
-                    continue;
+                if (!outlinks.contains(outlink)) {
+                    outlinks.add(outlink);
                 }
-
-                outlinks.append(outlink);
-                if (i < nOutLinks - 1)
-                    outlinks.append(";");
             }
-            value.set(outlinks.toString());
+            StringBuilder sb = new StringBuilder();
+            for (String outlink : outlinks) {
+                sb.append(outlink + ";");
+            }
+            if (sb.length() > 0) {
+                sb.deleteCharAt(sb.length() - 1);
+            }
+
+            value.set(sb.toString());
             writer.append(key, value);
 
             urlWrittenCount++;
