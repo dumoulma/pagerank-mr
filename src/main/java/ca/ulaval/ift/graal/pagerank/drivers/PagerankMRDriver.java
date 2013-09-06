@@ -61,6 +61,7 @@ public class PagerankMRDriver extends Configured implements Tool {
             hasConverged = runPagerankIteration(conf, jobname, inputPath, outputPath);
 
             iteration++;
+            fs.delete(inputPath, true);
             inputPath = outputPath;
         }
 
