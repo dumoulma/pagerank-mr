@@ -1,0 +1,1358 @@
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9999943046861421;http://www.oglethorpe.edu;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9999943046861421 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;0.9999943046861421 value2: http://www.bantu.edu;0.9999943046861421;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9347668961807992;http://www.saving.sable.com;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9347668961807992 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347668961807992 value2: http://www.bantu.edu;0.9347668961807992;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 1.1303608443365571;http://www.light.dental.net;http://www.saving.sable.com;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 1.1303608443365571 outlinkCount: 2
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.1303608443365571 value2: http://www.cadmium.edu;1.1303608443365571;2
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;1.1303608443365571 value2: http://www.cadmium.edu;1.1303608443365571;2
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.gandhi.cold.edu value: 1.130433301381562;http://www.agreed.bladder.com;http://www.laying.com;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 1.130433301381562 outlinkCount: 2
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.130433301381562 value2: http://www.gandhi.cold.edu;1.130433301381562;2
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.130433301381562 value2: http://www.gandhi.cold.edu;1.130433301381562;2
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9347805016522901;http://www.amianthus.net;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9347805016522901 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347805016522901 value2: http://www.hanging.gallinaceous.net;0.9347805016522901;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347776539953612;http://www.ringed.denizen.edu;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9347776539953612 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347776539953612 value2: http://www.laying.com;0.9347776539953612;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9130406688697201;http://www.bantu.edu;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9130406688697201 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130406688697201 value2: http://www.laying.com;0.9130406688697201;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999943046861421;http://www.cadmium.edu;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9999943046861421 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9999943046861421 value2: http://www.light.dental.net;0.9999943046861421;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9130406688697201;http://www.bantu.edu;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9130406688697201 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130406688697201 value2: http://www.light.dental.net;0.9130406688697201;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.mendel.night.com value: 0.9999648788993852;http://www.light.dental.net;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9999648788993852 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999648788993852 value2: http://www.mendel.night.com;0.9999648788993852;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 1.0;http://www.sacred.tarn.net;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.sacred.tarn.net;1.0 value2: http://www.oglethorpe.edu;1.0;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347668961807992;http://www.saving.sable.com;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9347668961807992 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347668961807992 value2: http://www.sphene.com;0.9347668961807992;1
+2013-09-06 17:36:23 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347776539953612;http://www.ringed.denizen.edu;
+2013-09-06 17:36:23 INFO  PagerankMapper:20 - pagerank: 0.9347776539953612 outlinkCount: 1
+2013-09-06 17:36:23 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347776539953612 value2: http://www.sphene.com;0.9347776539953612;1
+2013-09-06 17:36:23 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:23 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:23 INFO  Task:858 - Task:attempt_local_0008_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:23 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:23 INFO  Task:970 - Task 'attempt_local_0008_m_000000_0' done.
+2013-09-06 17:36:23 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@239ea79f
+2013-09-06 17:36:23 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:23 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:23 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1663 bytes
+2013-09-06 17:36:23 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:23 INFO  PagerankReducer:52 - CONVERGED! http://www.cadmium.edu pagerank is: 0.9999991457028874
+2013-09-06 17:36:23 INFO  PagerankReducer:52 - CONVERGED! http://www.hanging.gallinaceous.net pagerank is: 0.9999991457028874
+2013-09-06 17:36:23 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999947318346984
+2013-09-06 17:36:23 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 0.9999991457028874
+2013-09-06 17:36:23 INFO  PagerankReducer:52 - CONVERGED! http://www.sacred.tarn.net pagerank is: 1.0
+2013-09-06 17:36:23 INFO  Task:858 - Task:attempt_local_0008_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:23 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:23 INFO  Task:1011 - Task attempt_local_0008_r_000000_0 is allowed to commit now
+2013-09-06 17:36:23 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0008_r_000000_0' to data/pagerank/depth_7
+2013-09-06 17:36:23 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:23 INFO  Task:970 - Task 'attempt_local_0008_r_000000_0' done.
+2013-09-06 17:36:24 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:24 INFO  JobClient:1418 - Job complete: job_local_0008
+2013-09-06 17:36:24 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:24 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:24 INFO  JobClient:593 -     Bytes Written=1259
+2013-09-06 17:36:24 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:24 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:24 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:24 INFO  JobClient:593 -     FILE_BYTES_READ=47545
+2013-09-06 17:36:24 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=843517
+2013-09-06 17:36:24 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:24 INFO  JobClient:593 -     Bytes Read=1419
+2013-09-06 17:36:24 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:24 INFO  JobClient:593 -     Reduce input groups=13
+2013-09-06 17:36:24 INFO  JobClient:593 -     Map output materialized bytes=1667
+2013-09-06 17:36:24 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:24 INFO  JobClient:593 -     Map input records=16
+2013-09-06 17:36:24 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:24 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:24 INFO  JobClient:593 -     Reduce output records=13
+2013-09-06 17:36:24 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:24 INFO  JobClient:593 -     Map output bytes=1625
+2013-09-06 17:36:24 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:24 INFO  JobClient:593 -     Total committed heap usage (bytes)=1903427584
+2013-09-06 17:36:24 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:24 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:24 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:24 INFO  JobClient:593 -     SPLIT_RAW_BYTES=147
+2013-09-06 17:36:24 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:24 INFO  PagerankMRDriver:53 - Pagerank iteration #8
+2013-09-06 17:36:24 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:24 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:24 INFO  JobClient:1350 - Running job: job_local_0009
+2013-09-06 17:36:24 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@5f32ad96
+2013-09-06 17:36:24 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:25 INFO  JobClient:1363 -  map 0% reduce 0%
+2013-09-06 17:36:26 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:26 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9347824950121064;http://www.gandhi.cold.edu;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 0.9347824950121064 outlinkCount: 1
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347824950121064 value2: http://www.agreed.bladder.com;0.9347824950121064;1
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.amianthus.net value: 1.1304341556786746;http://www.hanging.gallinaceous.net;http://www.ashurbanipal.com;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 1.1304341556786746 outlinkCount: 2
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;1.1304341556786746 value2: http://www.amianthus.net;1.1304341556786746;2
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;1.1304341556786746 value2: http://www.amianthus.net;1.1304341556786746;2
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 1.2608683113573491;http://www.agreed.bladder.com;http://www.laying.com;http://www.light.dental.net;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 1.2608683113573491 outlinkCount: 3
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.2608683113573491 value2: http://www.bantu.edu;1.2608683113573491;3
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.2608683113573491 value2: http://www.bantu.edu;1.2608683113573491;3
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.2608683113573491 value2: http://www.bantu.edu;1.2608683113573491;3
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 0.9999991457028874;http://www.light.dental.net;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 0.9999991457028874 outlinkCount: 1
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999991457028874 value2: http://www.cadmium.edu;0.9999991457028874;1
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9999991457028874;http://www.ashurbanipal.com;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 0.9999991457028874 outlinkCount: 1
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;0.9999991457028874 value2: http://www.hanging.gallinaceous.net;0.9999991457028874;1
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347824950121064;http://www.gandhi.cold.edu;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 0.9347824950121064 outlinkCount: 1
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347824950121064 value2: http://www.laying.com;0.9347824950121064;1
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999947318346984;http://www.mendel.night.com;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 0.9999947318346984 outlinkCount: 1
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.mendel.night.com;0.9999947318346984 value2: http://www.light.dental.net;0.9999947318346984;1
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9347770607335152;http://www.cadmium.edu;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 0.9347770607335152 outlinkCount: 1
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347770607335152 value2: http://www.light.dental.net;0.9347770607335152;1
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 0.9999991457028874;http://www.bantu.edu;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 0.9999991457028874 outlinkCount: 1
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9999991457028874 value2: http://www.oglethorpe.edu;0.9999991457028874;1
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.ringed.denizen.edu value: 1.130433301381562;http://www.laying.com;http://www.sphene.com;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 1.130433301381562 outlinkCount: 2
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.130433301381562 value2: http://www.ringed.denizen.edu;1.130433301381562;2
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.130433301381562 value2: http://www.ringed.denizen.edu;1.130433301381562;2
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.sacred.tarn.net value: 1.0;http://www.oglethorpe.edu;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;1.0 value2: http://www.sacred.tarn.net;1.0;1
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 1.130430074037065;http://www.sphene.com;http://www.bantu.edu;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 1.130430074037065 outlinkCount: 2
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.130430074037065 value2: http://www.saving.sable.com;1.130430074037065;2
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;1.130430074037065 value2: http://www.saving.sable.com;1.130430074037065;2
+2013-09-06 17:36:26 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 0.9347770607335152;http://www.cadmium.edu;
+2013-09-06 17:36:26 INFO  PagerankMapper:20 - pagerank: 0.9347770607335152 outlinkCount: 1
+2013-09-06 17:36:26 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347770607335152 value2: http://www.saving.sable.com;0.9347770607335152;1
+2013-09-06 17:36:26 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:26 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:26 INFO  Task:858 - Task:attempt_local_0009_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:26 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:26 INFO  Task:970 - Task 'attempt_local_0009_m_000000_0' done.
+2013-09-06 17:36:26 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@3accd725
+2013-09-06 17:36:26 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:26 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:26 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1659 bytes
+2013-09-06 17:36:26 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:26 INFO  PagerankReducer:52 - CONVERGED! http://www.ashurbanipal.com pagerank is: 0.999999871855428
+2013-09-06 17:36:26 INFO  PagerankReducer:52 - CONVERGED! http://www.bantu.edu pagerank is: 0.999999871855428
+2013-09-06 17:36:26 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.999999871855428
+2013-09-06 17:36:26 INFO  PagerankReducer:52 - CONVERGED! http://www.mendel.night.com pagerank is: 0.9999992097751733
+2013-09-06 17:36:26 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 1.0
+2013-09-06 17:36:26 INFO  Task:858 - Task:attempt_local_0009_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:26 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:26 INFO  Task:1011 - Task attempt_local_0009_r_000000_0 is allowed to commit now
+2013-09-06 17:36:26 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0009_r_000000_0' to data/pagerank/depth_8
+2013-09-06 17:36:26 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:26 INFO  Task:970 - Task 'attempt_local_0009_r_000000_0' done.
+2013-09-06 17:36:26 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:26 INFO  JobClient:1418 - Job complete: job_local_0009
+2013-09-06 17:36:26 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:26 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:26 INFO  JobClient:593 -     Bytes Written=1415
+2013-09-06 17:36:26 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:26 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:26 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:26 INFO  JobClient:593 -     FILE_BYTES_READ=53799
+2013-09-06 17:36:26 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=949445
+2013-09-06 17:36:26 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:26 INFO  JobClient:593 -     Bytes Read=1259
+2013-09-06 17:36:26 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:26 INFO  JobClient:593 -     Reduce input groups=16
+2013-09-06 17:36:26 INFO  JobClient:593 -     Map output materialized bytes=1663
+2013-09-06 17:36:26 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:26 INFO  JobClient:593 -     Map input records=13
+2013-09-06 17:36:26 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:26 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:26 INFO  JobClient:593 -     Reduce output records=16
+2013-09-06 17:36:26 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:26 INFO  JobClient:593 -     Map output bytes=1621
+2013-09-06 17:36:26 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:26 INFO  JobClient:593 -     Total committed heap usage (bytes)=2102788096
+2013-09-06 17:36:26 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:26 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:26 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:26 INFO  JobClient:593 -     SPLIT_RAW_BYTES=147
+2013-09-06 17:36:26 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:26 INFO  PagerankMRDriver:53 - Pagerank iteration #9
+2013-09-06 17:36:26 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:26 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:26 INFO  JobClient:1350 - Running job: job_local_0010
+2013-09-06 17:36:26 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@6f94f5ef
+2013-09-06 17:36:26 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:27 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:27 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9130434121125233;http://www.bantu.edu;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9130434121125233 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434121125233 value2: http://www.agreed.bladder.com;0.9130434121125233;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.999999871855428;http://www.hanging.gallinaceous.net;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.999999871855428 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;0.999999871855428 value2: http://www.ashurbanipal.com;0.999999871855428;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9347825590843925;http://www.amianthus.net;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9347825590843925 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347825590843925 value2: http://www.ashurbanipal.com;0.9347825590843925;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.999999871855428;http://www.oglethorpe.edu;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.999999871855428 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;0.999999871855428 value2: http://www.bantu.edu;0.999999871855428;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9347822529612595;http://www.saving.sable.com;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9347822529612595 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347822529612595 value2: http://www.bantu.edu;0.9347822529612595;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 1.130433123403001;http://www.light.dental.net;http://www.saving.sable.com;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 1.130433123403001 outlinkCount: 2
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.130433123403001 value2: http://www.cadmium.edu;1.130433123403001;2
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;1.130433123403001 value2: http://www.cadmium.edu;1.130433123403001;2
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.gandhi.cold.edu value: 1.130434753686643;http://www.agreed.bladder.com;http://www.laying.com;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 1.130434753686643 outlinkCount: 2
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.130434753686643 value2: http://www.gandhi.cold.edu;1.130434753686643;2
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.130434753686643 value2: http://www.gandhi.cold.edu;1.130434753686643;2
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9347825590843925;http://www.amianthus.net;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9347825590843925 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347825590843925 value2: http://www.hanging.gallinaceous.net;0.9347825590843925;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347824950121064;http://www.ringed.denizen.edu;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9347824950121064 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347824950121064 value2: http://www.laying.com;0.9347824950121064;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9130434121125233;http://www.bantu.edu;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9130434121125233 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434121125233 value2: http://www.laying.com;0.9130434121125233;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.999999871855428;http://www.cadmium.edu;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.999999871855428 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.999999871855428 value2: http://www.light.dental.net;0.999999871855428;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9130434121125233;http://www.bantu.edu;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9130434121125233 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434121125233 value2: http://www.light.dental.net;0.9130434121125233;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.mendel.night.com value: 0.9999992097751733;http://www.light.dental.net;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9999992097751733 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999992097751733 value2: http://www.mendel.night.com;0.9999992097751733;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 1.0;http://www.sacred.tarn.net;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.sacred.tarn.net;1.0 value2: http://www.oglethorpe.edu;1.0;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347822529612595;http://www.saving.sable.com;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9347822529612595 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347822529612595 value2: http://www.sphene.com;0.9347822529612595;1
+2013-09-06 17:36:27 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347824950121064;http://www.ringed.denizen.edu;
+2013-09-06 17:36:27 INFO  PagerankMapper:20 - pagerank: 0.9347824950121064 outlinkCount: 1
+2013-09-06 17:36:27 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347824950121064 value2: http://www.sphene.com;0.9347824950121064;1
+2013-09-06 17:36:27 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:27 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:27 INFO  Task:858 - Task:attempt_local_0010_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:27 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:27 INFO  Task:970 - Task 'attempt_local_0010_m_000000_0' done.
+2013-09-06 17:36:27 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@720d2c22
+2013-09-06 17:36:27 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:27 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:27 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1653 bytes
+2013-09-06 17:36:27 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:27 INFO  PagerankReducer:52 - CONVERGED! http://www.cadmium.edu pagerank is: 0.9999999807783134
+2013-09-06 17:36:27 INFO  PagerankReducer:52 - CONVERGED! http://www.hanging.gallinaceous.net pagerank is: 0.9999999807783134
+2013-09-06 17:36:27 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999998814662713
+2013-09-06 17:36:27 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 0.9999999807783134
+2013-09-06 17:36:27 INFO  PagerankReducer:52 - CONVERGED! http://www.sacred.tarn.net pagerank is: 1.0
+2013-09-06 17:36:27 INFO  JobClient:1363 -  map 100% reduce 0%
+2013-09-06 17:36:27 INFO  Task:858 - Task:attempt_local_0010_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:27 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:27 INFO  Task:1011 - Task attempt_local_0010_r_000000_0 is allowed to commit now
+2013-09-06 17:36:27 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0010_r_000000_0' to data/pagerank/depth_9
+2013-09-06 17:36:27 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:27 INFO  Task:970 - Task 'attempt_local_0010_r_000000_0' done.
+2013-09-06 17:36:28 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:28 INFO  JobClient:1418 - Job complete: job_local_0010
+2013-09-06 17:36:28 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:28 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:28 INFO  JobClient:593 -     Bytes Written=1260
+2013-09-06 17:36:28 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:28 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:28 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:28 INFO  JobClient:593 -     FILE_BYTES_READ=60355
+2013-09-06 17:36:28 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=1055366
+2013-09-06 17:36:28 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:28 INFO  JobClient:593 -     Bytes Read=1415
+2013-09-06 17:36:28 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:28 INFO  JobClient:593 -     Reduce input groups=13
+2013-09-06 17:36:28 INFO  JobClient:593 -     Map output materialized bytes=1657
+2013-09-06 17:36:28 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:28 INFO  JobClient:593 -     Map input records=16
+2013-09-06 17:36:28 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:28 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:28 INFO  JobClient:593 -     Reduce output records=13
+2013-09-06 17:36:28 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:28 INFO  JobClient:593 -     Map output bytes=1615
+2013-09-06 17:36:28 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:28 INFO  JobClient:593 -     Total committed heap usage (bytes)=2302148608
+2013-09-06 17:36:28 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:28 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:28 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:28 INFO  JobClient:593 -     SPLIT_RAW_BYTES=147
+2013-09-06 17:36:28 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:28 INFO  PagerankMRDriver:53 - Pagerank iteration #10
+2013-09-06 17:36:28 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:28 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:29 INFO  JobClient:1350 - Running job: job_local_0011
+2013-09-06 17:36:29 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@4565b197
+2013-09-06 17:36:29 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:30 INFO  JobClient:1363 -  map 0% reduce 0%
+2013-09-06 17:36:30 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:30 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9347826039349918;http://www.gandhi.cold.edu;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 0.9347826039349918 outlinkCount: 1
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826039349918 value2: http://www.agreed.bladder.com;0.9347826039349918;1
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.amianthus.net value: 1.1304347729083297;http://www.hanging.gallinaceous.net;http://www.ashurbanipal.com;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 1.1304347729083297 outlinkCount: 2
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;1.1304347729083297 value2: http://www.amianthus.net;1.1304347729083297;2
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;1.1304347729083297 value2: http://www.amianthus.net;1.1304347729083297;2
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 1.2608695458166594;http://www.agreed.bladder.com;http://www.laying.com;http://www.light.dental.net;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 1.2608695458166594 outlinkCount: 3
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.2608695458166594 value2: http://www.bantu.edu;1.2608695458166594;3
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.2608695458166594 value2: http://www.bantu.edu;1.2608695458166594;3
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.2608695458166594 value2: http://www.bantu.edu;1.2608695458166594;3
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 0.9999999807783134;http://www.light.dental.net;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 0.9999999807783134 outlinkCount: 1
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999999807783134 value2: http://www.cadmium.edu;0.9999999807783134;1
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9999999807783134;http://www.ashurbanipal.com;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 0.9999999807783134 outlinkCount: 1
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;0.9999999807783134 value2: http://www.hanging.gallinaceous.net;0.9999999807783134;1
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826039349918;http://www.gandhi.cold.edu;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 0.9347826039349918 outlinkCount: 1
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826039349918 value2: http://www.laying.com;0.9347826039349918;1
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999998814662713;http://www.mendel.night.com;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 0.9999998814662713 outlinkCount: 1
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.mendel.night.com;0.9999998814662713 value2: http://www.light.dental.net;0.9999998814662713;1
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9347824816637138;http://www.cadmium.edu;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 0.9347824816637138 outlinkCount: 1
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347824816637138 value2: http://www.light.dental.net;0.9347824816637138;1
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 0.9999999807783134;http://www.bantu.edu;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 0.9999999807783134 outlinkCount: 1
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9999999807783134 value2: http://www.oglethorpe.edu;0.9999999807783134;1
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.ringed.denizen.edu value: 1.130434753686643;http://www.laying.com;http://www.sphene.com;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 1.130434753686643 outlinkCount: 2
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.130434753686643 value2: http://www.ringed.denizen.edu;1.130434753686643;2
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.130434753686643 value2: http://www.ringed.denizen.edu;1.130434753686643;2
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.sacred.tarn.net value: 1.0;http://www.oglethorpe.edu;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;1.0 value2: http://www.sacred.tarn.net;1.0;1
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 1.1304346810713861;http://www.sphene.com;http://www.bantu.edu;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 1.1304346810713861 outlinkCount: 2
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.1304346810713861 value2: http://www.saving.sable.com;1.1304346810713861;2
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;1.1304346810713861 value2: http://www.saving.sable.com;1.1304346810713861;2
+2013-09-06 17:36:30 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 0.9347824816637138;http://www.cadmium.edu;
+2013-09-06 17:36:30 INFO  PagerankMapper:20 - pagerank: 0.9347824816637138 outlinkCount: 1
+2013-09-06 17:36:30 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347824816637138 value2: http://www.saving.sable.com;0.9347824816637138;1
+2013-09-06 17:36:30 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:30 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:30 INFO  Task:858 - Task:attempt_local_0011_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:30 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:30 INFO  Task:970 - Task 'attempt_local_0011_m_000000_0' done.
+2013-09-06 17:36:30 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@2cf63e26
+2013-09-06 17:36:30 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:30 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:30 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1663 bytes
+2013-09-06 17:36:30 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:30 INFO  PagerankReducer:52 - CONVERGED! http://www.ashurbanipal.com pagerank is: 0.9999999971167469
+2013-09-06 17:36:30 INFO  PagerankReducer:52 - CONVERGED! http://www.bantu.edu pagerank is: 0.9999999971167469
+2013-09-06 17:36:30 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999971167469
+2013-09-06 17:36:30 INFO  PagerankReducer:52 - CONVERGED! http://www.mendel.night.com pagerank is: 0.99999998221994
+2013-09-06 17:36:30 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 1.0
+2013-09-06 17:36:30 INFO  Task:858 - Task:attempt_local_0011_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:30 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:30 INFO  Task:1011 - Task attempt_local_0011_r_000000_0 is allowed to commit now
+2013-09-06 17:36:30 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0011_r_000000_0' to data/pagerank/depth_10
+2013-09-06 17:36:30 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:30 INFO  Task:970 - Task 'attempt_local_0011_r_000000_0' done.
+2013-09-06 17:36:31 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:31 INFO  JobClient:1418 - Job complete: job_local_0011
+2013-09-06 17:36:31 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:31 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:31 INFO  JobClient:593 -     Bytes Written=1416
+2013-09-06 17:36:31 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:31 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:31 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:31 INFO  JobClient:593 -     FILE_BYTES_READ=66605
+2013-09-06 17:36:31 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=1161320
+2013-09-06 17:36:31 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:31 INFO  JobClient:593 -     Bytes Read=1260
+2013-09-06 17:36:31 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:31 INFO  JobClient:593 -     Reduce input groups=16
+2013-09-06 17:36:31 INFO  JobClient:593 -     Map output materialized bytes=1667
+2013-09-06 17:36:31 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:31 INFO  JobClient:593 -     Map input records=13
+2013-09-06 17:36:31 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:31 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:31 INFO  JobClient:593 -     Reduce output records=16
+2013-09-06 17:36:31 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:31 INFO  JobClient:593 -     Map output bytes=1625
+2013-09-06 17:36:31 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:31 INFO  JobClient:593 -     Total committed heap usage (bytes)=2501509120
+2013-09-06 17:36:31 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:31 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:31 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:31 INFO  JobClient:593 -     SPLIT_RAW_BYTES=147
+2013-09-06 17:36:31 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:31 INFO  PagerankMRDriver:53 - Pagerank iteration #11
+2013-09-06 17:36:31 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:31 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:31 INFO  JobClient:1350 - Running job: job_local_0012
+2013-09-06 17:36:31 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@599da9aa
+2013-09-06 17:36:31 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:32 INFO  JobClient:1363 -  map 0% reduce 0%
+2013-09-06 17:36:32 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:32 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9130434738354912;http://www.bantu.edu;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9130434738354912 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434738354912 value2: http://www.agreed.bladder.com;0.9130434738354912;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9999999971167469;http://www.hanging.gallinaceous.net;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9999999971167469 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;0.9999999971167469 value2: http://www.ashurbanipal.com;0.9999999971167469;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9347826053766184;http://www.amianthus.net;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9347826053766184 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347826053766184 value2: http://www.ashurbanipal.com;0.9347826053766184;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9999999971167469;http://www.oglethorpe.edu;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9999999971167469 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;0.9999999971167469 value2: http://www.bantu.edu;0.9999999971167469;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9347825984888474;http://www.saving.sable.com;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9347825984888474 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347825984888474 value2: http://www.bantu.edu;0.9347825984888474;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 1.1304347496821252;http://www.light.dental.net;http://www.saving.sable.com;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 1.1304347496821252 outlinkCount: 2
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.1304347496821252 value2: http://www.cadmium.edu;1.1304347496821252;2
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;1.1304347496821252 value2: http://www.cadmium.edu;1.1304347496821252;2
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.gandhi.cold.edu value: 1.13043478636351;http://www.agreed.bladder.com;http://www.laying.com;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 1.13043478636351 outlinkCount: 2
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.13043478636351 value2: http://www.gandhi.cold.edu;1.13043478636351;2
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.13043478636351 value2: http://www.gandhi.cold.edu;1.13043478636351;2
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9347826053766184;http://www.amianthus.net;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9347826053766184 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347826053766184 value2: http://www.hanging.gallinaceous.net;0.9347826053766184;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826039349918;http://www.ringed.denizen.edu;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9347826039349918 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826039349918 value2: http://www.laying.com;0.9347826039349918;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9130434738354912;http://www.bantu.edu;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9130434738354912 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434738354912 value2: http://www.laying.com;0.9130434738354912;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999999971167469;http://www.cadmium.edu;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9999999971167469 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9999999971167469 value2: http://www.light.dental.net;0.9999999971167469;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9130434738354912;http://www.bantu.edu;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9130434738354912 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434738354912 value2: http://www.light.dental.net;0.9130434738354912;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.mendel.night.com value: 0.99999998221994;http://www.light.dental.net;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.99999998221994 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.99999998221994 value2: http://www.mendel.night.com;0.99999998221994;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 1.0;http://www.sacred.tarn.net;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.sacred.tarn.net;1.0 value2: http://www.oglethorpe.edu;1.0;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347825984888474;http://www.saving.sable.com;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9347825984888474 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347825984888474 value2: http://www.sphene.com;0.9347825984888474;1
+2013-09-06 17:36:32 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347826039349918;http://www.ringed.denizen.edu;
+2013-09-06 17:36:32 INFO  PagerankMapper:20 - pagerank: 0.9347826039349918 outlinkCount: 1
+2013-09-06 17:36:32 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826039349918 value2: http://www.sphene.com;0.9347826039349918;1
+2013-09-06 17:36:32 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:32 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:32 INFO  Task:858 - Task:attempt_local_0012_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:32 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:32 INFO  Task:970 - Task 'attempt_local_0012_m_000000_0' done.
+2013-09-06 17:36:32 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@75be18e2
+2013-09-06 17:36:32 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:32 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:32 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1655 bytes
+2013-09-06 17:36:32 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:32 INFO  PagerankReducer:52 - CONVERGED! http://www.cadmium.edu pagerank is: 0.999999999567512
+2013-09-06 17:36:32 INFO  PagerankReducer:52 - CONVERGED! http://www.hanging.gallinaceous.net pagerank is: 0.999999999567512
+2013-09-06 17:36:32 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999973329909
+2013-09-06 17:36:32 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 0.999999999567512
+2013-09-06 17:36:32 INFO  PagerankReducer:52 - CONVERGED! http://www.sacred.tarn.net pagerank is: 1.0
+2013-09-06 17:36:32 INFO  Task:858 - Task:attempt_local_0012_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:32 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:32 INFO  Task:1011 - Task attempt_local_0012_r_000000_0 is allowed to commit now
+2013-09-06 17:36:32 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0012_r_000000_0' to data/pagerank/depth_11
+2013-09-06 17:36:32 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:32 INFO  Task:970 - Task 'attempt_local_0012_r_000000_0' done.
+2013-09-06 17:36:33 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:33 INFO  JobClient:1418 - Job complete: job_local_0012
+2013-09-06 17:36:33 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:33 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:33 INFO  JobClient:593 -     Bytes Written=1253
+2013-09-06 17:36:33 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:33 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:33 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:33 INFO  JobClient:593 -     FILE_BYTES_READ=73171
+2013-09-06 17:36:33 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=1267253
+2013-09-06 17:36:33 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:33 INFO  JobClient:593 -     Bytes Read=1416
+2013-09-06 17:36:33 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:33 INFO  JobClient:593 -     Reduce input groups=13
+2013-09-06 17:36:33 INFO  JobClient:593 -     Map output materialized bytes=1659
+2013-09-06 17:36:33 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:33 INFO  JobClient:593 -     Map input records=16
+2013-09-06 17:36:33 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:33 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:33 INFO  JobClient:593 -     Reduce output records=13
+2013-09-06 17:36:33 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:33 INFO  JobClient:593 -     Map output bytes=1617
+2013-09-06 17:36:33 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:33 INFO  JobClient:593 -     Total committed heap usage (bytes)=2700869632
+2013-09-06 17:36:33 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:33 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:33 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:33 INFO  JobClient:593 -     SPLIT_RAW_BYTES=148
+2013-09-06 17:36:33 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:33 INFO  PagerankMRDriver:53 - Pagerank iteration #12
+2013-09-06 17:36:33 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:33 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:33 INFO  JobClient:1350 - Running job: job_local_0013
+2013-09-06 17:36:33 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@7b2fe415
+2013-09-06 17:36:33 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:34 INFO  JobClient:1363 -  map 0% reduce 0%
+2013-09-06 17:36:34 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:34 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9347826063857569;http://www.gandhi.cold.edu;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 0.9347826063857569 outlinkCount: 1
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826063857569 value2: http://www.agreed.bladder.com;0.9347826063857569;1
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.amianthus.net value: 1.130434786795998;http://www.hanging.gallinaceous.net;http://www.ashurbanipal.com;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 1.130434786795998 outlinkCount: 2
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;1.130434786795998 value2: http://www.amianthus.net;1.130434786795998;2
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;1.130434786795998 value2: http://www.amianthus.net;1.130434786795998;2
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 1.2608695735919961;http://www.agreed.bladder.com;http://www.laying.com;http://www.light.dental.net;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 1.2608695735919961 outlinkCount: 3
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.2608695735919961 value2: http://www.bantu.edu;1.2608695735919961;3
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.2608695735919961 value2: http://www.bantu.edu;1.2608695735919961;3
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.2608695735919961 value2: http://www.bantu.edu;1.2608695735919961;3
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 0.999999999567512;http://www.light.dental.net;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 0.999999999567512 outlinkCount: 1
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.999999999567512 value2: http://www.cadmium.edu;0.999999999567512;1
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.999999999567512;http://www.ashurbanipal.com;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 0.999999999567512 outlinkCount: 1
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;0.999999999567512 value2: http://www.hanging.gallinaceous.net;0.999999999567512;1
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826063857569;http://www.gandhi.cold.edu;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 0.9347826063857569 outlinkCount: 1
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826063857569 value2: http://www.laying.com;0.9347826063857569;1
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999999973329909;http://www.mendel.night.com;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 0.9999999973329909 outlinkCount: 1
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.mendel.night.com;0.9999999973329909 value2: http://www.light.dental.net;0.9999999973329909;1
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.934782603634653;http://www.cadmium.edu;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 0.934782603634653 outlinkCount: 1
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.934782603634653 value2: http://www.light.dental.net;0.934782603634653;1
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 0.999999999567512;http://www.bantu.edu;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 0.999999999567512 outlinkCount: 1
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.999999999567512 value2: http://www.oglethorpe.edu;0.999999999567512;1
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.ringed.denizen.edu value: 1.13043478636351;http://www.laying.com;http://www.sphene.com;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 1.13043478636351 outlinkCount: 2
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.13043478636351 value2: http://www.ringed.denizen.edu;1.13043478636351;2
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.13043478636351 value2: http://www.ringed.denizen.edu;1.13043478636351;2
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.sacred.tarn.net value: 1.0;http://www.oglethorpe.edu;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;1.0 value2: http://www.sacred.tarn.net;1.0;1
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 1.1304347847296667;http://www.sphene.com;http://www.bantu.edu;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 1.1304347847296667 outlinkCount: 2
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.1304347847296667 value2: http://www.saving.sable.com;1.1304347847296667;2
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;1.1304347847296667 value2: http://www.saving.sable.com;1.1304347847296667;2
+2013-09-06 17:36:34 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 0.934782603634653;http://www.cadmium.edu;
+2013-09-06 17:36:34 INFO  PagerankMapper:20 - pagerank: 0.934782603634653 outlinkCount: 1
+2013-09-06 17:36:34 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.934782603634653 value2: http://www.saving.sable.com;0.934782603634653;1
+2013-09-06 17:36:34 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:34 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:34 INFO  Task:858 - Task:attempt_local_0013_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:34 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:34 INFO  Task:970 - Task 'attempt_local_0013_m_000000_0' done.
+2013-09-06 17:36:34 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@20904ddd
+2013-09-06 17:36:34 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:34 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:34 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1645 bytes
+2013-09-06 17:36:34 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:34 INFO  PagerankReducer:52 - CONVERGED! http://www.ashurbanipal.com pagerank is: 0.9999999999351268
+2013-09-06 17:36:34 INFO  PagerankReducer:52 - CONVERGED! http://www.bantu.edu pagerank is: 0.9999999999351268
+2013-09-06 17:36:34 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999999351268
+2013-09-06 17:36:34 INFO  PagerankReducer:52 - CONVERGED! http://www.mendel.night.com pagerank is: 0.9999999995999487
+2013-09-06 17:36:34 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 1.0
+2013-09-06 17:36:34 INFO  Task:858 - Task:attempt_local_0013_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:34 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:34 INFO  Task:1011 - Task attempt_local_0013_r_000000_0 is allowed to commit now
+2013-09-06 17:36:34 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0013_r_000000_0' to data/pagerank/depth_12
+2013-09-06 17:36:34 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:35 INFO  Task:970 - Task 'attempt_local_0013_r_000000_0' done.
+2013-09-06 17:36:35 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:35 INFO  JobClient:1418 - Job complete: job_local_0013
+2013-09-06 17:36:35 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:35 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:35 INFO  JobClient:593 -     Bytes Written=1420
+2013-09-06 17:36:35 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:35 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:35 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:35 INFO  JobClient:593 -     FILE_BYTES_READ=79393
+2013-09-06 17:36:35 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=1373170
+2013-09-06 17:36:35 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:35 INFO  JobClient:593 -     Bytes Read=1253
+2013-09-06 17:36:35 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:35 INFO  JobClient:593 -     Reduce input groups=16
+2013-09-06 17:36:35 INFO  JobClient:593 -     Map output materialized bytes=1649
+2013-09-06 17:36:35 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:35 INFO  JobClient:593 -     Map input records=13
+2013-09-06 17:36:35 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:35 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:35 INFO  JobClient:593 -     Reduce output records=16
+2013-09-06 17:36:35 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:35 INFO  JobClient:593 -     Map output bytes=1607
+2013-09-06 17:36:35 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:35 INFO  JobClient:593 -     Total committed heap usage (bytes)=2861826048
+2013-09-06 17:36:35 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:35 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:35 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:35 INFO  JobClient:593 -     SPLIT_RAW_BYTES=148
+2013-09-06 17:36:35 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:35 INFO  PagerankMRDriver:53 - Pagerank iteration #13
+2013-09-06 17:36:35 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:35 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:35 INFO  JobClient:1350 - Running job: job_local_0014
+2013-09-06 17:36:35 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@409c8e14
+2013-09-06 17:36:35 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:36 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:36 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9130434752242581;http://www.bantu.edu;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9130434752242581 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752242581 value2: http://www.agreed.bladder.com;0.9130434752242581;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9999999999351268;http://www.hanging.gallinaceous.net;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9999999999351268 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;0.9999999999351268 value2: http://www.ashurbanipal.com;0.9999999999351268;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9347826064181936;http://www.amianthus.net;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9347826064181936 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347826064181936 value2: http://www.ashurbanipal.com;0.9347826064181936;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9999999999351268;http://www.oglethorpe.edu;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9999999999351268 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;0.9999999999351268 value2: http://www.bantu.edu;0.9999999999351268;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9347826062632187;http://www.saving.sable.com;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9347826062632187 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347826062632187 value2: http://www.bantu.edu;0.9347826062632187;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 1.1304347862734083;http://www.light.dental.net;http://www.saving.sable.com;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 1.1304347862734083 outlinkCount: 2
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.1304347862734083 value2: http://www.cadmium.edu;1.1304347862734083;2
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;1.1304347862734083 value2: http://www.cadmium.edu;1.1304347862734083;2
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.gandhi.cold.edu value: 1.1304347870987397;http://www.agreed.bladder.com;http://www.laying.com;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 1.1304347870987397 outlinkCount: 2
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.1304347870987397 value2: http://www.gandhi.cold.edu;1.1304347870987397;2
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.1304347870987397 value2: http://www.gandhi.cold.edu;1.1304347870987397;2
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9347826064181936;http://www.amianthus.net;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9347826064181936 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347826064181936 value2: http://www.hanging.gallinaceous.net;0.9347826064181936;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826063857569;http://www.ringed.denizen.edu;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9347826063857569 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826063857569 value2: http://www.laying.com;0.9347826063857569;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9130434752242581;http://www.bantu.edu;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9130434752242581 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752242581 value2: http://www.laying.com;0.9130434752242581;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999999999351268;http://www.cadmium.edu;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9999999999351268 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9999999999351268 value2: http://www.light.dental.net;0.9999999999351268;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9130434752242581;http://www.bantu.edu;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9130434752242581 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752242581 value2: http://www.light.dental.net;0.9130434752242581;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.mendel.night.com value: 0.9999999995999487;http://www.light.dental.net;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9999999995999487 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999999995999487 value2: http://www.mendel.night.com;0.9999999995999487;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 1.0;http://www.sacred.tarn.net;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.sacred.tarn.net;1.0 value2: http://www.oglethorpe.edu;1.0;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347826062632187;http://www.saving.sable.com;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9347826062632187 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347826062632187 value2: http://www.sphene.com;0.9347826062632187;1
+2013-09-06 17:36:36 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347826063857569;http://www.ringed.denizen.edu;
+2013-09-06 17:36:36 INFO  PagerankMapper:20 - pagerank: 0.9347826063857569 outlinkCount: 1
+2013-09-06 17:36:36 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826063857569 value2: http://www.sphene.com;0.9347826063857569;1
+2013-09-06 17:36:36 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:36 INFO  JobClient:1363 -  map 0% reduce 0%
+2013-09-06 17:36:36 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:36 INFO  Task:858 - Task:attempt_local_0014_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:36 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:36 INFO  Task:970 - Task 'attempt_local_0014_m_000000_0' done.
+2013-09-06 17:36:36 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@40874c04
+2013-09-06 17:36:36 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:36 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:36 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1667 bytes
+2013-09-06 17:36:36 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:36 INFO  PagerankReducer:52 - CONVERGED! http://www.cadmium.edu pagerank is: 0.999999999990269
+2013-09-06 17:36:36 INFO  PagerankReducer:52 - CONVERGED! http://www.hanging.gallinaceous.net pagerank is: 0.999999999990269
+2013-09-06 17:36:36 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999999399923
+2013-09-06 17:36:36 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 0.999999999990269
+2013-09-06 17:36:36 INFO  PagerankReducer:52 - CONVERGED! http://www.sacred.tarn.net pagerank is: 1.0
+2013-09-06 17:36:36 INFO  Task:858 - Task:attempt_local_0014_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:36 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:36 INFO  Task:1011 - Task attempt_local_0014_r_000000_0 is allowed to commit now
+2013-09-06 17:36:36 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0014_r_000000_0' to data/pagerank/depth_13
+2013-09-06 17:36:36 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:36 INFO  Task:970 - Task 'attempt_local_0014_r_000000_0' done.
+2013-09-06 17:36:37 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:37 INFO  JobClient:1418 - Job complete: job_local_0014
+2013-09-06 17:36:37 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:37 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:37 INFO  JobClient:593 -     Bytes Written=1258
+2013-09-06 17:36:37 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:37 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:37 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:37 INFO  JobClient:593 -     FILE_BYTES_READ=85961
+2013-09-06 17:36:37 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=1479132
+2013-09-06 17:36:37 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:37 INFO  JobClient:593 -     Bytes Read=1420
+2013-09-06 17:36:37 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:37 INFO  JobClient:593 -     Reduce input groups=13
+2013-09-06 17:36:37 INFO  JobClient:593 -     Map output materialized bytes=1671
+2013-09-06 17:36:37 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:37 INFO  JobClient:593 -     Map input records=16
+2013-09-06 17:36:37 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:37 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:37 INFO  JobClient:593 -     Reduce output records=13
+2013-09-06 17:36:37 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:37 INFO  JobClient:593 -     Map output bytes=1629
+2013-09-06 17:36:37 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:37 INFO  JobClient:593 -     Total committed heap usage (bytes)=2989490176
+2013-09-06 17:36:37 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:37 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:37 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:37 INFO  JobClient:593 -     SPLIT_RAW_BYTES=148
+2013-09-06 17:36:37 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:37 INFO  PagerankMRDriver:53 - Pagerank iteration #14
+2013-09-06 17:36:37 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:37 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:37 INFO  JobClient:1350 - Running job: job_local_0015
+2013-09-06 17:36:37 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@318dd605
+2013-09-06 17:36:37 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:38 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:38 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9347826064408992;http://www.gandhi.cold.edu;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 0.9347826064408992 outlinkCount: 1
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826064408992 value2: http://www.agreed.bladder.com;0.9347826064408992;1
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.amianthus.net value: 1.1304347871084706;http://www.hanging.gallinaceous.net;http://www.ashurbanipal.com;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 1.1304347871084706 outlinkCount: 2
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;1.1304347871084706 value2: http://www.amianthus.net;1.1304347871084706;2
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;1.1304347871084706 value2: http://www.amianthus.net;1.1304347871084706;2
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 1.2608695742169411;http://www.agreed.bladder.com;http://www.laying.com;http://www.light.dental.net;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 1.2608695742169411 outlinkCount: 3
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.2608695742169411 value2: http://www.bantu.edu;1.2608695742169411;3
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.2608695742169411 value2: http://www.bantu.edu;1.2608695742169411;3
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.2608695742169411 value2: http://www.bantu.edu;1.2608695742169411;3
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 0.999999999990269;http://www.light.dental.net;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 0.999999999990269 outlinkCount: 1
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.999999999990269 value2: http://www.cadmium.edu;0.999999999990269;1
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.999999999990269;http://www.ashurbanipal.com;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 0.999999999990269 outlinkCount: 1
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;0.999999999990269 value2: http://www.hanging.gallinaceous.net;0.999999999990269;1
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826064408992;http://www.gandhi.cold.edu;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 0.9347826064408992 outlinkCount: 1
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826064408992 value2: http://www.laying.com;0.9347826064408992;1
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999999999399923;http://www.mendel.night.com;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 0.9999999999399923 outlinkCount: 1
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.mendel.night.com;0.9999999999399923 value2: http://www.light.dental.net;0.9999999999399923;1
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9347826063789993;http://www.cadmium.edu;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 0.9347826063789993 outlinkCount: 1
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347826063789993 value2: http://www.light.dental.net;0.9347826063789993;1
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 0.999999999990269;http://www.bantu.edu;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 0.999999999990269 outlinkCount: 1
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.999999999990269 value2: http://www.oglethorpe.edu;0.999999999990269;1
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.ringed.denizen.edu value: 1.1304347870987397;http://www.laying.com;http://www.sphene.com;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 1.1304347870987397 outlinkCount: 2
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.1304347870987397 value2: http://www.ringed.denizen.edu;1.1304347870987397;2
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.1304347870987397 value2: http://www.ringed.denizen.edu;1.1304347870987397;2
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.sacred.tarn.net value: 1.0;http://www.oglethorpe.edu;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;1.0 value2: http://www.sacred.tarn.net;1.0;1
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 1.1304347870619782;http://www.sphene.com;http://www.bantu.edu;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 1.1304347870619782 outlinkCount: 2
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.1304347870619782 value2: http://www.saving.sable.com;1.1304347870619782;2
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;1.1304347870619782 value2: http://www.saving.sable.com;1.1304347870619782;2
+2013-09-06 17:36:38 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 0.9347826063789993;http://www.cadmium.edu;
+2013-09-06 17:36:38 INFO  PagerankMapper:20 - pagerank: 0.9347826063789993 outlinkCount: 1
+2013-09-06 17:36:38 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347826063789993 value2: http://www.saving.sable.com;0.9347826063789993;1
+2013-09-06 17:36:38 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:38 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:38 INFO  Task:858 - Task:attempt_local_0015_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:38 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:38 INFO  Task:970 - Task 'attempt_local_0015_m_000000_0' done.
+2013-09-06 17:36:38 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@fb9165a
+2013-09-06 17:36:38 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:38 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:38 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1661 bytes
+2013-09-06 17:36:38 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:38 INFO  PagerankReducer:52 - CONVERGED! http://www.ashurbanipal.com pagerank is: 0.9999999999985404
+2013-09-06 17:36:38 INFO  PagerankReducer:52 - CONVERGED! http://www.bantu.edu pagerank is: 0.9999999999985404
+2013-09-06 17:36:38 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999999985404
+2013-09-06 17:36:38 INFO  PagerankReducer:52 - CONVERGED! http://www.mendel.night.com pagerank is: 0.9999999999909989
+2013-09-06 17:36:38 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 1.0
+2013-09-06 17:36:38 INFO  Task:858 - Task:attempt_local_0015_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:38 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:38 INFO  Task:1011 - Task attempt_local_0015_r_000000_0 is allowed to commit now
+2013-09-06 17:36:38 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0015_r_000000_0' to data/pagerank/depth_14
+2013-09-06 17:36:38 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:38 INFO  Task:970 - Task 'attempt_local_0015_r_000000_0' done.
+2013-09-06 17:36:38 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:38 INFO  JobClient:1418 - Job complete: job_local_0015
+2013-09-06 17:36:38 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:38 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:38 INFO  JobClient:593 -     Bytes Written=1416
+2013-09-06 17:36:38 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:38 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:38 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:38 INFO  JobClient:593 -     FILE_BYTES_READ=92221
+2013-09-06 17:36:38 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=1585082
+2013-09-06 17:36:38 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:38 INFO  JobClient:593 -     Bytes Read=1258
+2013-09-06 17:36:38 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:38 INFO  JobClient:593 -     Reduce input groups=16
+2013-09-06 17:36:38 INFO  JobClient:593 -     Map output materialized bytes=1665
+2013-09-06 17:36:38 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:38 INFO  JobClient:593 -     Map input records=13
+2013-09-06 17:36:38 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:38 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:38 INFO  JobClient:593 -     Reduce output records=16
+2013-09-06 17:36:38 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:38 INFO  JobClient:593 -     Map output bytes=1623
+2013-09-06 17:36:38 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:38 INFO  JobClient:593 -     Total committed heap usage (bytes)=2989490176
+2013-09-06 17:36:38 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:38 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:38 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:38 INFO  JobClient:593 -     SPLIT_RAW_BYTES=148
+2013-09-06 17:36:38 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:38 INFO  PagerankMRDriver:53 - Pagerank iteration #15
+2013-09-06 17:36:38 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:38 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:39 INFO  JobClient:1350 - Running job: job_local_0016
+2013-09-06 17:36:39 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@79112836
+2013-09-06 17:36:39 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:39 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:39 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9130434752555053;http://www.bantu.edu;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.9130434752555053 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752555053 value2: http://www.agreed.bladder.com;0.9130434752555053;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9999999999985404;http://www.hanging.gallinaceous.net;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.9999999999985404 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;0.9999999999985404 value2: http://www.ashurbanipal.com;0.9999999999985404;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.934782606441629;http://www.amianthus.net;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.934782606441629 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.934782606441629 value2: http://www.ashurbanipal.com;0.934782606441629;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9999999999985404;http://www.oglethorpe.edu;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.9999999999985404 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;0.9999999999985404 value2: http://www.bantu.edu;0.9999999999985404;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.934782606438142;http://www.saving.sable.com;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.934782606438142 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.934782606438142 value2: http://www.bantu.edu;0.934782606438142;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 1.1304347870967124;http://www.light.dental.net;http://www.saving.sable.com;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 1.1304347870967124 outlinkCount: 2
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.1304347870967124 value2: http://www.cadmium.edu;1.1304347870967124;2
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;1.1304347870967124 value2: http://www.cadmium.edu;1.1304347870967124;2
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.gandhi.cold.edu value: 1.1304347871152824;http://www.agreed.bladder.com;http://www.laying.com;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 1.1304347871152824 outlinkCount: 2
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.1304347871152824 value2: http://www.gandhi.cold.edu;1.1304347871152824;2
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.1304347871152824 value2: http://www.gandhi.cold.edu;1.1304347871152824;2
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.934782606441629;http://www.amianthus.net;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.934782606441629 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.934782606441629 value2: http://www.hanging.gallinaceous.net;0.934782606441629;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826064408992;http://www.ringed.denizen.edu;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.9347826064408992 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826064408992 value2: http://www.laying.com;0.9347826064408992;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9130434752555053;http://www.bantu.edu;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.9130434752555053 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752555053 value2: http://www.laying.com;0.9130434752555053;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999999999985404;http://www.cadmium.edu;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.9999999999985404 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9999999999985404 value2: http://www.light.dental.net;0.9999999999985404;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9130434752555053;http://www.bantu.edu;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.9130434752555053 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752555053 value2: http://www.light.dental.net;0.9130434752555053;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.mendel.night.com value: 0.9999999999909989;http://www.light.dental.net;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.9999999999909989 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999999999909989 value2: http://www.mendel.night.com;0.9999999999909989;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 1.0;http://www.sacred.tarn.net;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.sacred.tarn.net;1.0 value2: http://www.oglethorpe.edu;1.0;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.934782606438142;http://www.saving.sable.com;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.934782606438142 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.934782606438142 value2: http://www.sphene.com;0.934782606438142;1
+2013-09-06 17:36:39 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347826064408992;http://www.ringed.denizen.edu;
+2013-09-06 17:36:39 INFO  PagerankMapper:20 - pagerank: 0.9347826064408992 outlinkCount: 1
+2013-09-06 17:36:39 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826064408992 value2: http://www.sphene.com;0.9347826064408992;1
+2013-09-06 17:36:39 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:39 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:39 INFO  Task:858 - Task:attempt_local_0016_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:39 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:39 INFO  Task:970 - Task 'attempt_local_0016_m_000000_0' done.
+2013-09-06 17:36:39 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@743e4500
+2013-09-06 17:36:39 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:39 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:39 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1659 bytes
+2013-09-06 17:36:39 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:39 INFO  PagerankReducer:52 - CONVERGED! http://www.cadmium.edu pagerank is: 0.9999999999997811
+2013-09-06 17:36:39 INFO  PagerankReducer:52 - CONVERGED! http://www.hanging.gallinaceous.net pagerank is: 0.9999999999997811
+2013-09-06 17:36:39 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999999986499
+2013-09-06 17:36:39 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 0.9999999999997811
+2013-09-06 17:36:39 INFO  PagerankReducer:52 - CONVERGED! http://www.sacred.tarn.net pagerank is: 1.0
+2013-09-06 17:36:39 INFO  Task:858 - Task:attempt_local_0016_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:39 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:39 INFO  Task:1011 - Task attempt_local_0016_r_000000_0 is allowed to commit now
+2013-09-06 17:36:39 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0016_r_000000_0' to data/pagerank/depth_15
+2013-09-06 17:36:39 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:39 INFO  Task:970 - Task 'attempt_local_0016_r_000000_0' done.
+2013-09-06 17:36:40 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:40 INFO  JobClient:1418 - Job complete: job_local_0016
+2013-09-06 17:36:40 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:40 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:40 INFO  JobClient:593 -     Bytes Written=1260
+2013-09-06 17:36:40 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:40 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:40 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:40 INFO  JobClient:593 -     FILE_BYTES_READ=98789
+2013-09-06 17:36:40 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=1691034
+2013-09-06 17:36:40 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:40 INFO  JobClient:593 -     Bytes Read=1416
+2013-09-06 17:36:40 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:40 INFO  JobClient:593 -     Reduce input groups=13
+2013-09-06 17:36:40 INFO  JobClient:593 -     Map output materialized bytes=1663
+2013-09-06 17:36:40 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:40 INFO  JobClient:593 -     Map input records=16
+2013-09-06 17:36:40 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:40 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:40 INFO  JobClient:593 -     Reduce output records=13
+2013-09-06 17:36:40 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:40 INFO  JobClient:593 -     Map output bytes=1621
+2013-09-06 17:36:40 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:40 INFO  JobClient:593 -     Total committed heap usage (bytes)=3245211648
+2013-09-06 17:36:40 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:40 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:40 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:40 INFO  JobClient:593 -     SPLIT_RAW_BYTES=148
+2013-09-06 17:36:40 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:40 INFO  PagerankMRDriver:53 - Pagerank iteration #16
+2013-09-06 17:36:40 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:40 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:40 INFO  JobClient:1350 - Running job: job_local_0017
+2013-09-06 17:36:40 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@1a7c8e4c
+2013-09-06 17:36:40 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:41 INFO  JobClient:1363 -  map 0% reduce 0%
+2013-09-06 17:36:41 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:41 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9347826064421398;http://www.gandhi.cold.edu;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 0.9347826064421398 outlinkCount: 1
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826064421398 value2: http://www.agreed.bladder.com;0.9347826064421398;1
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.amianthus.net value: 1.1304347871155014;http://www.hanging.gallinaceous.net;http://www.ashurbanipal.com;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 1.1304347871155014 outlinkCount: 2
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;1.1304347871155014 value2: http://www.amianthus.net;1.1304347871155014;2
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;1.1304347871155014 value2: http://www.amianthus.net;1.1304347871155014;2
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 1.2608695742310025;http://www.agreed.bladder.com;http://www.laying.com;http://www.light.dental.net;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 1.2608695742310025 outlinkCount: 3
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.2608695742310025 value2: http://www.bantu.edu;1.2608695742310025;3
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.2608695742310025 value2: http://www.bantu.edu;1.2608695742310025;3
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.2608695742310025 value2: http://www.bantu.edu;1.2608695742310025;3
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 0.9999999999997811;http://www.light.dental.net;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 0.9999999999997811 outlinkCount: 1
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999999999997811 value2: http://www.cadmium.edu;0.9999999999997811;1
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9999999999997811;http://www.ashurbanipal.com;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 0.9999999999997811 outlinkCount: 1
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;0.9999999999997811 value2: http://www.hanging.gallinaceous.net;0.9999999999997811;1
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826064421398;http://www.gandhi.cold.edu;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 0.9347826064421398 outlinkCount: 1
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826064421398 value2: http://www.laying.com;0.9347826064421398;1
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999999999986499;http://www.mendel.night.com;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 0.9999999999986499 outlinkCount: 1
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.mendel.night.com;0.9999999999986499 value2: http://www.light.dental.net;0.9999999999986499;1
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9347826064407472;http://www.cadmium.edu;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 0.9347826064407472 outlinkCount: 1
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347826064407472 value2: http://www.light.dental.net;0.9347826064407472;1
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 0.9999999999997811;http://www.bantu.edu;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 0.9999999999997811 outlinkCount: 1
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9999999999997811 value2: http://www.oglethorpe.edu;0.9999999999997811;1
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.ringed.denizen.edu value: 1.1304347871152824;http://www.laying.com;http://www.sphene.com;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 1.1304347871152824 outlinkCount: 2
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.1304347871152824 value2: http://www.ringed.denizen.edu;1.1304347871152824;2
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.1304347871152824 value2: http://www.ringed.denizen.edu;1.1304347871152824;2
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.sacred.tarn.net value: 1.0;http://www.oglethorpe.edu;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;1.0 value2: http://www.sacred.tarn.net;1.0;1
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 1.130434787114455;http://www.sphene.com;http://www.bantu.edu;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 1.130434787114455 outlinkCount: 2
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.130434787114455 value2: http://www.saving.sable.com;1.130434787114455;2
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;1.130434787114455 value2: http://www.saving.sable.com;1.130434787114455;2
+2013-09-06 17:36:41 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 0.9347826064407472;http://www.cadmium.edu;
+2013-09-06 17:36:41 INFO  PagerankMapper:20 - pagerank: 0.9347826064407472 outlinkCount: 1
+2013-09-06 17:36:41 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347826064407472 value2: http://www.saving.sable.com;0.9347826064407472;1
+2013-09-06 17:36:41 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:41 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:41 INFO  Task:858 - Task:attempt_local_0017_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:41 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:41 INFO  Task:970 - Task 'attempt_local_0017_m_000000_0' done.
+2013-09-06 17:36:41 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@7f21f894
+2013-09-06 17:36:41 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:41 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:41 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1663 bytes
+2013-09-06 17:36:41 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:41 INFO  PagerankReducer:52 - CONVERGED! http://www.ashurbanipal.com pagerank is: 0.9999999999999671
+2013-09-06 17:36:41 INFO  PagerankReducer:52 - CONVERGED! http://www.bantu.edu pagerank is: 0.9999999999999671
+2013-09-06 17:36:41 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999999999671
+2013-09-06 17:36:41 INFO  PagerankReducer:52 - CONVERGED! http://www.mendel.night.com pagerank is: 0.9999999999997975
+2013-09-06 17:36:41 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 1.0
+2013-09-06 17:36:41 INFO  Task:858 - Task:attempt_local_0017_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:41 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:41 INFO  Task:1011 - Task attempt_local_0017_r_000000_0 is allowed to commit now
+2013-09-06 17:36:41 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0017_r_000000_0' to data/pagerank/depth_16
+2013-09-06 17:36:41 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:41 INFO  Task:970 - Task 'attempt_local_0017_r_000000_0' done.
+2013-09-06 17:36:42 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:42 INFO  JobClient:1418 - Job complete: job_local_0017
+2013-09-06 17:36:42 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:42 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:42 INFO  JobClient:593 -     Bytes Written=1420
+2013-09-06 17:36:42 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:42 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:42 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:42 INFO  JobClient:593 -     FILE_BYTES_READ=105047
+2013-09-06 17:36:42 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=1796994
+2013-09-06 17:36:42 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:42 INFO  JobClient:593 -     Bytes Read=1260
+2013-09-06 17:36:42 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:42 INFO  JobClient:593 -     Reduce input groups=16
+2013-09-06 17:36:42 INFO  JobClient:593 -     Map output materialized bytes=1667
+2013-09-06 17:36:42 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:42 INFO  JobClient:593 -     Map input records=13
+2013-09-06 17:36:42 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:42 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:42 INFO  JobClient:593 -     Reduce output records=16
+2013-09-06 17:36:42 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:42 INFO  JobClient:593 -     Map output bytes=1625
+2013-09-06 17:36:42 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:42 INFO  JobClient:593 -     Total committed heap usage (bytes)=3245211648
+2013-09-06 17:36:42 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:42 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:42 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:42 INFO  JobClient:593 -     SPLIT_RAW_BYTES=148
+2013-09-06 17:36:42 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:42 INFO  PagerankMRDriver:53 - Pagerank iteration #17
+2013-09-06 17:36:42 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:42 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:42 INFO  JobClient:1350 - Running job: job_local_0018
+2013-09-06 17:36:42 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@6779ad95
+2013-09-06 17:36:42 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:42 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:42 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9130434752562084;http://www.bantu.edu;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9130434752562084 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752562084 value2: http://www.agreed.bladder.com;0.9130434752562084;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9999999999999671;http://www.hanging.gallinaceous.net;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9999999999999671 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;0.9999999999999671 value2: http://www.ashurbanipal.com;0.9999999999999671;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9347826064421563;http://www.amianthus.net;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9347826064421563 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347826064421563 value2: http://www.ashurbanipal.com;0.9347826064421563;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9999999999999671;http://www.oglethorpe.edu;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9999999999999671 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;0.9999999999999671 value2: http://www.bantu.edu;0.9999999999999671;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9347826064420779;http://www.saving.sable.com;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9347826064420779 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347826064420779 value2: http://www.bantu.edu;0.9347826064420779;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 1.1304347871152367;http://www.light.dental.net;http://www.saving.sable.com;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 1.1304347871152367 outlinkCount: 2
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.1304347871152367 value2: http://www.cadmium.edu;1.1304347871152367;2
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;1.1304347871152367 value2: http://www.cadmium.edu;1.1304347871152367;2
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.gandhi.cold.edu value: 1.1304347871156546;http://www.agreed.bladder.com;http://www.laying.com;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 1.1304347871156546 outlinkCount: 2
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.1304347871156546 value2: http://www.gandhi.cold.edu;1.1304347871156546;2
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.1304347871156546 value2: http://www.gandhi.cold.edu;1.1304347871156546;2
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9347826064421563;http://www.amianthus.net;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9347826064421563 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347826064421563 value2: http://www.hanging.gallinaceous.net;0.9347826064421563;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826064421398;http://www.ringed.denizen.edu;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9347826064421398 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826064421398 value2: http://www.laying.com;0.9347826064421398;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9130434752562084;http://www.bantu.edu;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9130434752562084 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752562084 value2: http://www.laying.com;0.9130434752562084;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999999999999671;http://www.cadmium.edu;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9999999999999671 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9999999999999671 value2: http://www.light.dental.net;0.9999999999999671;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9130434752562084;http://www.bantu.edu;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9130434752562084 outlinkCount: 1
+2013-09-06 17:36:42 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752562084 value2: http://www.light.dental.net;0.9130434752562084;1
+2013-09-06 17:36:42 INFO  PagerankMapper:15 - Key: http://www.mendel.night.com value: 0.9999999999997975;http://www.light.dental.net;
+2013-09-06 17:36:42 INFO  PagerankMapper:20 - pagerank: 0.9999999999997975 outlinkCount: 1
+2013-09-06 17:36:43 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999999999997975 value2: http://www.mendel.night.com;0.9999999999997975;1
+2013-09-06 17:36:43 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 1.0;http://www.sacred.tarn.net;
+2013-09-06 17:36:43 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:43 INFO  PagerankMapper:30 - Key2: http://www.sacred.tarn.net;1.0 value2: http://www.oglethorpe.edu;1.0;1
+2013-09-06 17:36:43 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347826064420779;http://www.saving.sable.com;
+2013-09-06 17:36:43 INFO  PagerankMapper:20 - pagerank: 0.9347826064420779 outlinkCount: 1
+2013-09-06 17:36:43 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347826064420779 value2: http://www.sphene.com;0.9347826064420779;1
+2013-09-06 17:36:43 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347826064421398;http://www.ringed.denizen.edu;
+2013-09-06 17:36:43 INFO  PagerankMapper:20 - pagerank: 0.9347826064421398 outlinkCount: 1
+2013-09-06 17:36:43 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826064421398 value2: http://www.sphene.com;0.9347826064421398;1
+2013-09-06 17:36:43 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:43 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:43 INFO  Task:858 - Task:attempt_local_0018_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:43 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:43 INFO  Task:970 - Task 'attempt_local_0018_m_000000_0' done.
+2013-09-06 17:36:43 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@46cc6130
+2013-09-06 17:36:43 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:43 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:43 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1667 bytes
+2013-09-06 17:36:43 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:43 INFO  PagerankReducer:52 - CONVERGED! http://www.cadmium.edu pagerank is: 0.9999999999999951
+2013-09-06 17:36:43 INFO  PagerankReducer:52 - CONVERGED! http://www.hanging.gallinaceous.net pagerank is: 0.9999999999999951
+2013-09-06 17:36:43 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999999999696
+2013-09-06 17:36:43 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 0.9999999999999951
+2013-09-06 17:36:43 INFO  PagerankReducer:52 - CONVERGED! http://www.sacred.tarn.net pagerank is: 1.0
+2013-09-06 17:36:43 INFO  Task:858 - Task:attempt_local_0018_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:43 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:43 INFO  Task:1011 - Task attempt_local_0018_r_000000_0 is allowed to commit now
+2013-09-06 17:36:43 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0018_r_000000_0' to data/pagerank/depth_17
+2013-09-06 17:36:43 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:43 INFO  Task:970 - Task 'attempt_local_0018_r_000000_0' done.
+2013-09-06 17:36:43 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:43 INFO  JobClient:1418 - Job complete: job_local_0018
+2013-09-06 17:36:43 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:43 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:43 INFO  JobClient:593 -     Bytes Written=1259
+2013-09-06 17:36:43 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:43 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:43 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:43 INFO  JobClient:593 -     FILE_BYTES_READ=111633
+2013-09-06 17:36:43 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=1902957
+2013-09-06 17:36:43 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:43 INFO  JobClient:593 -     Bytes Read=1420
+2013-09-06 17:36:43 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:43 INFO  JobClient:593 -     Reduce input groups=13
+2013-09-06 17:36:43 INFO  JobClient:593 -     Map output materialized bytes=1671
+2013-09-06 17:36:43 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:43 INFO  JobClient:593 -     Map input records=16
+2013-09-06 17:36:43 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:43 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:43 INFO  JobClient:593 -     Reduce output records=13
+2013-09-06 17:36:43 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:43 INFO  JobClient:593 -     Map output bytes=1629
+2013-09-06 17:36:43 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:43 INFO  JobClient:593 -     Total committed heap usage (bytes)=3245735936
+2013-09-06 17:36:43 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:43 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:43 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:43 INFO  JobClient:593 -     SPLIT_RAW_BYTES=148
+2013-09-06 17:36:43 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:43 INFO  PagerankMRDriver:53 - Pagerank iteration #18
+2013-09-06 17:36:43 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:43 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:43 INFO  JobClient:1350 - Running job: job_local_0019
+2013-09-06 17:36:43 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@2220b86
+2013-09-06 17:36:43 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:44 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:44 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9347826064421678;http://www.gandhi.cold.edu;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 0.9347826064421678 outlinkCount: 1
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826064421678 value2: http://www.agreed.bladder.com;0.9347826064421678;1
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.amianthus.net value: 1.1304347871156595;http://www.hanging.gallinaceous.net;http://www.ashurbanipal.com;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 1.1304347871156595 outlinkCount: 2
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;1.1304347871156595 value2: http://www.amianthus.net;1.1304347871156595;2
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;1.1304347871156595 value2: http://www.amianthus.net;1.1304347871156595;2
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 1.260869574231319;http://www.agreed.bladder.com;http://www.laying.com;http://www.light.dental.net;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 1.260869574231319 outlinkCount: 3
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.260869574231319 value2: http://www.bantu.edu;1.260869574231319;3
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.260869574231319 value2: http://www.bantu.edu;1.260869574231319;3
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.260869574231319 value2: http://www.bantu.edu;1.260869574231319;3
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 0.9999999999999951;http://www.light.dental.net;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 0.9999999999999951 outlinkCount: 1
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999999999999951 value2: http://www.cadmium.edu;0.9999999999999951;1
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9999999999999951;http://www.ashurbanipal.com;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 0.9999999999999951 outlinkCount: 1
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.ashurbanipal.com;0.9999999999999951 value2: http://www.hanging.gallinaceous.net;0.9999999999999951;1
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826064421678;http://www.gandhi.cold.edu;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 0.9347826064421678 outlinkCount: 1
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.gandhi.cold.edu;0.9347826064421678 value2: http://www.laying.com;0.9347826064421678;1
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999999999999696;http://www.mendel.night.com;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 0.9999999999999696 outlinkCount: 1
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.mendel.night.com;0.9999999999999696 value2: http://www.light.dental.net;0.9999999999999696;1
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9347826064421365;http://www.cadmium.edu;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 0.9347826064421365 outlinkCount: 1
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347826064421365 value2: http://www.light.dental.net;0.9347826064421365;1
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 0.9999999999999951;http://www.bantu.edu;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 0.9999999999999951 outlinkCount: 1
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9999999999999951 value2: http://www.oglethorpe.edu;0.9999999999999951;1
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.ringed.denizen.edu value: 1.1304347871156546;http://www.laying.com;http://www.sphene.com;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 1.1304347871156546 outlinkCount: 2
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.1304347871156546 value2: http://www.ringed.denizen.edu;1.1304347871156546;2
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.1304347871156546 value2: http://www.ringed.denizen.edu;1.1304347871156546;2
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.sacred.tarn.net value: 1.0;http://www.oglethorpe.edu;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;1.0 value2: http://www.sacred.tarn.net;1.0;1
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 1.130434787115636;http://www.sphene.com;http://www.bantu.edu;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 1.130434787115636 outlinkCount: 2
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.sphene.com;1.130434787115636 value2: http://www.saving.sable.com;1.130434787115636;2
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;1.130434787115636 value2: http://www.saving.sable.com;1.130434787115636;2
+2013-09-06 17:36:44 INFO  PagerankMapper:15 - Key: http://www.saving.sable.com value: 0.9347826064421365;http://www.cadmium.edu;
+2013-09-06 17:36:44 INFO  PagerankMapper:20 - pagerank: 0.9347826064421365 outlinkCount: 1
+2013-09-06 17:36:44 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9347826064421365 value2: http://www.saving.sable.com;0.9347826064421365;1
+2013-09-06 17:36:44 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:44 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:44 INFO  Task:858 - Task:attempt_local_0019_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:44 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:44 INFO  Task:970 - Task 'attempt_local_0019_m_000000_0' done.
+2013-09-06 17:36:44 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@5a41f1b5
+2013-09-06 17:36:44 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:44 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:44 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1657 bytes
+2013-09-06 17:36:44 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:44 INFO  PagerankReducer:52 - CONVERGED! http://www.ashurbanipal.com pagerank is: 0.9999999999999993
+2013-09-06 17:36:44 INFO  PagerankReducer:52 - CONVERGED! http://www.bantu.edu pagerank is: 0.9999999999999993
+2013-09-06 17:36:44 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999999999993
+2013-09-06 17:36:44 INFO  PagerankReducer:52 - CONVERGED! http://www.mendel.night.com pagerank is: 0.9999999999999954
+2013-09-06 17:36:44 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 1.0
+2013-09-06 17:36:44 INFO  Task:858 - Task:attempt_local_0019_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:44 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:44 INFO  Task:1011 - Task attempt_local_0019_r_000000_0 is allowed to commit now
+2013-09-06 17:36:44 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0019_r_000000_0' to data/pagerank/depth_18
+2013-09-06 17:36:44 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:44 INFO  Task:970 - Task 'attempt_local_0019_r_000000_0' done.
+2013-09-06 17:36:44 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:44 INFO  JobClient:1418 - Job complete: job_local_0019
+2013-09-06 17:36:44 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:44 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:44 INFO  JobClient:593 -     Bytes Written=1419
+2013-09-06 17:36:44 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:44 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:44 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:44 INFO  JobClient:593 -     FILE_BYTES_READ=117891
+2013-09-06 17:36:44 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=2008899
+2013-09-06 17:36:44 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:44 INFO  JobClient:593 -     Bytes Read=1259
+2013-09-06 17:36:44 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:44 INFO  JobClient:593 -     Reduce input groups=16
+2013-09-06 17:36:44 INFO  JobClient:593 -     Map output materialized bytes=1661
+2013-09-06 17:36:44 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:44 INFO  JobClient:593 -     Map input records=13
+2013-09-06 17:36:44 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:44 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:44 INFO  JobClient:593 -     Reduce output records=16
+2013-09-06 17:36:44 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:44 INFO  JobClient:593 -     Map output bytes=1619
+2013-09-06 17:36:44 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:44 INFO  JobClient:593 -     Total committed heap usage (bytes)=3245735936
+2013-09-06 17:36:44 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:44 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:44 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:44 INFO  JobClient:593 -     SPLIT_RAW_BYTES=148
+2013-09-06 17:36:44 INFO  JobClient:593 -     Reduce input records=18
+2013-09-06 17:36:44 INFO  PagerankMRDriver:53 - Pagerank iteration #19
+2013-09-06 17:36:44 WARN  JobClient:846 - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2013-09-06 17:36:44 INFO  FileInputFormat:237 - Total input paths to process : 1
+2013-09-06 17:36:44 INFO  JobClient:1350 - Running job: job_local_0020
+2013-09-06 17:36:45 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@365f6757
+2013-09-06 17:36:45 INFO  MapTask:944 - io.sort.mb = 100
+2013-09-06 17:36:45 INFO  MapTask:956 - data buffer = 79691776/99614720
+2013-09-06 17:36:45 INFO  MapTask:957 - record buffer = 262144/327680
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.agreed.bladder.com value: 0.9130434752562242;http://www.bantu.edu;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9130434752562242 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752562242 value2: http://www.agreed.bladder.com;0.9130434752562242;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9999999999999993;http://www.hanging.gallinaceous.net;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9999999999999993 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.hanging.gallinaceous.net;0.9999999999999993 value2: http://www.ashurbanipal.com;0.9999999999999993;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.ashurbanipal.com value: 0.9347826064421682;http://www.amianthus.net;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9347826064421682 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347826064421682 value2: http://www.ashurbanipal.com;0.9347826064421682;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9999999999999993;http://www.oglethorpe.edu;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9999999999999993 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.oglethorpe.edu;0.9999999999999993 value2: http://www.bantu.edu;0.9999999999999993;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.bantu.edu value: 0.9347826064421664;http://www.saving.sable.com;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9347826064421664 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347826064421664 value2: http://www.bantu.edu;0.9347826064421664;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.cadmium.edu value: 1.1304347871156535;http://www.light.dental.net;http://www.saving.sable.com;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 1.1304347871156535 outlinkCount: 2
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;1.1304347871156535 value2: http://www.cadmium.edu;1.1304347871156535;2
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;1.1304347871156535 value2: http://www.cadmium.edu;1.1304347871156535;2
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.gandhi.cold.edu value: 1.130434787115663;http://www.agreed.bladder.com;http://www.laying.com;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 1.130434787115663 outlinkCount: 2
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.agreed.bladder.com;1.130434787115663 value2: http://www.gandhi.cold.edu;1.130434787115663;2
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.laying.com;1.130434787115663 value2: http://www.gandhi.cold.edu;1.130434787115663;2
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.hanging.gallinaceous.net value: 0.9347826064421682;http://www.amianthus.net;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9347826064421682 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.amianthus.net;0.9347826064421682 value2: http://www.hanging.gallinaceous.net;0.9347826064421682;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9347826064421678;http://www.ringed.denizen.edu;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9347826064421678 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826064421678 value2: http://www.laying.com;0.9347826064421678;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.laying.com value: 0.9130434752562242;http://www.bantu.edu;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9130434752562242 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752562242 value2: http://www.laying.com;0.9130434752562242;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9999999999999993;http://www.cadmium.edu;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9999999999999993 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.cadmium.edu;0.9999999999999993 value2: http://www.light.dental.net;0.9999999999999993;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.light.dental.net value: 0.9130434752562242;http://www.bantu.edu;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9130434752562242 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.bantu.edu;0.9130434752562242 value2: http://www.light.dental.net;0.9130434752562242;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.mendel.night.com value: 0.9999999999999954;http://www.light.dental.net;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9999999999999954 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.light.dental.net;0.9999999999999954 value2: http://www.mendel.night.com;0.9999999999999954;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.oglethorpe.edu value: 1.0;http://www.sacred.tarn.net;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 1.0 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.sacred.tarn.net;1.0 value2: http://www.oglethorpe.edu;1.0;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347826064421664;http://www.saving.sable.com;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9347826064421664 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.saving.sable.com;0.9347826064421664 value2: http://www.sphene.com;0.9347826064421664;1
+2013-09-06 17:36:45 INFO  PagerankMapper:15 - Key: http://www.sphene.com value: 0.9347826064421678;http://www.ringed.denizen.edu;
+2013-09-06 17:36:45 INFO  PagerankMapper:20 - pagerank: 0.9347826064421678 outlinkCount: 1
+2013-09-06 17:36:45 INFO  PagerankMapper:30 - Key2: http://www.ringed.denizen.edu;0.9347826064421678 value2: http://www.sphene.com;0.9347826064421678;1
+2013-09-06 17:36:45 INFO  MapTask:1284 - Starting flush of map output
+2013-09-06 17:36:45 INFO  MapTask:1466 - Finished spill 0
+2013-09-06 17:36:45 INFO  Task:858 - Task:attempt_local_0020_m_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:45 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:45 INFO  Task:970 - Task 'attempt_local_0020_m_000000_0' done.
+2013-09-06 17:36:45 INFO  Task:534 -  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@2fddcf4e
+2013-09-06 17:36:45 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:45 INFO  Merger:390 - Merging 1 sorted segments
+2013-09-06 17:36:45 INFO  Merger:473 - Down to the last merge-pass, with 1 segments left of total size: 1663 bytes
+2013-09-06 17:36:45 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:45 INFO  PagerankReducer:52 - CONVERGED! http://www.cadmium.edu pagerank is: 0.9999999999999999
+2013-09-06 17:36:45 INFO  PagerankReducer:52 - CONVERGED! http://www.hanging.gallinaceous.net pagerank is: 0.9999999999999999
+2013-09-06 17:36:45 INFO  PagerankReducer:52 - CONVERGED! http://www.light.dental.net pagerank is: 0.9999999999999993
+2013-09-06 17:36:45 INFO  PagerankReducer:52 - CONVERGED! http://www.oglethorpe.edu pagerank is: 0.9999999999999999
+2013-09-06 17:36:45 INFO  PagerankReducer:52 - CONVERGED! http://www.sacred.tarn.net pagerank is: 1.0
+2013-09-06 17:36:45 INFO  Task:858 - Task:attempt_local_0020_r_000000_0 is done. And is in the process of commiting
+2013-09-06 17:36:45 INFO  LocalJobRunner:323 - 
+2013-09-06 17:36:45 INFO  Task:1011 - Task attempt_local_0020_r_000000_0 is allowed to commit now
+2013-09-06 17:36:45 INFO  FileOutputCommitter:173 - Saved output of task 'attempt_local_0020_r_000000_0' to data/pagerank/depth_19
+2013-09-06 17:36:45 INFO  LocalJobRunner:323 - reduce > reduce
+2013-09-06 17:36:45 INFO  Task:970 - Task 'attempt_local_0020_r_000000_0' done.
+2013-09-06 17:36:46 INFO  JobClient:1363 -  map 100% reduce 100%
+2013-09-06 17:36:46 INFO  JobClient:1418 - Job complete: job_local_0020
+2013-09-06 17:36:46 INFO  JobClient:589 - Counters: 21
+2013-09-06 17:36:46 INFO  JobClient:591 -   File Output Format Counters 
+2013-09-06 17:36:46 INFO  JobClient:593 -     Bytes Written=1258
+2013-09-06 17:36:46 INFO  JobClient:591 -   ca.ulaval.graal.pagerank.mapreduce.PagerankReducer$Counter
+2013-09-06 17:36:46 INFO  JobClient:593 -     CONVERGED=5
+2013-09-06 17:36:46 INFO  JobClient:591 -   FileSystemCounters
+2013-09-06 17:36:46 INFO  JobClient:593 -     FILE_BYTES_READ=124465
+2013-09-06 17:36:46 INFO  JobClient:593 -     FILE_BYTES_WRITTEN=2114856
+2013-09-06 17:36:46 INFO  JobClient:591 -   File Input Format Counters 
+2013-09-06 17:36:46 INFO  JobClient:593 -     Bytes Read=1419
+2013-09-06 17:36:46 INFO  JobClient:591 -   Map-Reduce Framework
+2013-09-06 17:36:46 INFO  JobClient:593 -     Reduce input groups=13
+2013-09-06 17:36:46 INFO  JobClient:593 -     Map output materialized bytes=1667
+2013-09-06 17:36:46 INFO  JobClient:593 -     Combine output records=0
+2013-09-06 17:36:46 INFO  JobClient:593 -     Map input records=16
+2013-09-06 17:36:46 INFO  JobClient:593 -     Reduce shuffle bytes=0
+2013-09-06 17:36:46 INFO  JobClient:593 -     Physical memory (bytes) snapshot=0
+2013-09-06 17:36:46 INFO  JobClient:593 -     Reduce output records=13
+2013-09-06 17:36:46 INFO  JobClient:593 -     Spilled Records=36
+2013-09-06 17:36:46 INFO  JobClient:593 -     Map output bytes=1625
+2013-09-06 17:36:46 INFO  JobClient:593 -     CPU time spent (ms)=0
+2013-09-06 17:36:46 INFO  JobClient:593 -     Total committed heap usage (bytes)=3756654592
+2013-09-06 17:36:46 INFO  JobClient:593 -     Virtual memory (bytes) snapshot=0
+2013-09-06 17:36:46 INFO  JobClient:593 -     Combine input records=0
+2013-09-06 17:36:46 INFO  JobClient:593 -     Map output records=18
+2013-09-06 17:36:46 INFO  JobClient:593 -     SPLIT_RAW_BYTES=148
+2013-09-06 17:36:46 INFO  JobClient:593 -     Reduce input records=18
