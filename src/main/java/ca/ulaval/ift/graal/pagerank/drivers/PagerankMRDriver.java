@@ -26,7 +26,7 @@ public class PagerankMRDriver extends Configured implements Tool {
     private static final Logger LOG = LoggerFactory.getLogger(PagerankMRDriver.class);
 
     private static final String DATA_PATH = "data/parsed_crawl_data.seq";
-    private static final int MAX_ITERATIONS = 50;
+    private static final int MAX_ITERATIONS = 100;
 
     public static void main(String[] args) throws Exception {
         int exitCode = ToolRunner.run(new PagerankMRDriver(), args);
