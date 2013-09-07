@@ -27,8 +27,8 @@ public class DataGenerator extends Configured implements Tool {
 
     private static final String INTPUT_VOCAB_FILENAME = "data/vocab/english_words.txt";
     private static final String OUTPUT_SEQ_FILENAME = "data/parsed_crawl_data.seq";
-    private static final int MAX_URLS = 100;
-    private static final int MAX_OUTLINKS = 4;
+    private static final int MAX_URLS = 25;
+    private static final int MAX_OUTLINKS = 5;
     private static final int MAX_WORDS_IN_URL = 2;
     private static Random random = new Random();
 

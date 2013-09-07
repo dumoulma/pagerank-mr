@@ -14,9 +14,12 @@ public class PagerankReducer extends Reducer<Text, Text, Text, Text> {
     private static final Logger LOG = LoggerFactory.getLogger(PagerankReducer.class);
 
     private static final double DEFAULT_DAMPING_FACTOR = 0.85;
-    private double dampingFactor = DEFAULT_DAMPING_FACTOR;
+    private double dampingFactor;
     private static final double DEFAULT_CONVERGENCE_THRESHOLD = 0.001;
-    private double convergence_threshold = DEFAULT_CONVERGENCE_THRESHOLD;
+    private double convergence_threshold;
+    private int N = 1;
+    private static int DEFAULT_ROUNDING_PRECISION = 5;
+    private int roundingPrecision;
 
     public static enum Counter {
         CONVERGED,
@@ -28,8 +31,10 @@ public class PagerankReducer extends Reducer<Text, Text, Text, Text> {
         Configuration conf = context.getConfiguration();
 
         dampingFactor = conf.getFloat("damping.factor", (float) DEFAULT_DAMPING_FACTOR);
-        convergence_threshold = conf.getFloat("error.threshold",
+        convergence_threshold = conf.getFloat("convergence.threshold",
                 (float) DEFAULT_CONVERGENCE_THRESHOLD);
+        N = conf.getInt("input.size", N);
+        roundingPrecision = conf.getInt("rounding.precision", DEFAULT_ROUNDING_PRECISION);
     }
 
     @Override
@@ -41,18 +46,15 @@ public class PagerankReducer extends Reducer<Text, Text, Text, Text> {
 
         LOG.debug("key: " + key);
         double pagerank = 0.0;
-        int i = 1;
         StringBuilder outlinks = new StringBuilder();
         for (Text value : values) {
-            LOG.debug("value " + i + ": " + value);
             String[] fields = value.toString().split(";");
             outlinks.append(fields[0] + ";");
             pagerank += Double.parseDouble(fields[1]) / Integer.parseInt(fields[2]);
-            i++;
         }
-        pagerank *= dampingFactor;
-        pagerank += (1 - dampingFactor);
-        pagerank = Util.round(pagerank, 5);
+        pagerank *= dampingFactor/N;
+        pagerank += (1 - dampingFactor)/N;
+        pagerank = Util.round(pagerank, roundingPrecision);
 
         if (isConverged(oldPagerank, pagerank)) {
             context.getCounter(Counter.CONVERGED).increment(1);

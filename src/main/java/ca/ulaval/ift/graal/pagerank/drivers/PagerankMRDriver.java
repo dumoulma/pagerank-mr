@@ -26,7 +26,11 @@ public class PagerankMRDriver extends Configured implements Tool {
     private static final Logger LOG = LoggerFactory.getLogger(PagerankMRDriver.class);
 
     private static final String DATA_PATH = "data/parsed_crawl_data.seq";
+    private static final float DEFAULT_CONVERGENCE_THRESHOLD = 0.0001f;
+    private static final float DEFAULT_DAMPING_FACTOR = 0.85f;
     private static final int MAX_ITERATIONS = 100;
+    private static final int INPUT_SIZE = 25;
+    private static final int DEFAULT_ROUNDING_PRECISION = 8;
 
     public static void main(String[] args) throws Exception {
         int exitCode = ToolRunner.run(new PagerankMRDriver(), args);
@@ -40,27 +44,39 @@ public class PagerankMRDriver extends Configured implements Tool {
         Configuration conf = getConf();
         FileSystem fs = FileSystem.get(conf);
 
-        conf.setFloat("damping.factor", 0.85f);
-        conf.setFloat("error.threshold", 0.01f);
-        Path parsedIntputPath = new Path(DATA_PATH);
-        Path parsedOutputPath = new Path("data/pagerank/initial");
-        parseCrawlData(conf, "Pagerank: Parse URL data job", parsedIntputPath, parsedOutputPath);
+        conf.setFloat("damping.factor", DEFAULT_DAMPING_FACTOR);
+        conf.setFloat("convergence.threshold", DEFAULT_CONVERGENCE_THRESHOLD);
+        conf.setInt("input.size", INPUT_SIZE);
+        conf.setInt("rounding.precision", DEFAULT_ROUNDING_PRECISION);
 
-        int iteration = 1;
+        Path parsedIntputPath = new Path(DATA_PATH);
+        Path parsedOutputPath = new Path("data/pagerank/parsed_output");
+        if (fs.exists(parsedOutputPath))
+            fs.delete(parsedOutputPath, true);
+
+        Job parseJob = new Job(conf, "Pagerank: Parse URL data job");
+        parseJob.setJarByClass(getClass());
+        parseCrawlData(parseJob, parsedIntputPath, parsedOutputPath);
+
+        int iterationCount = 1;
         boolean hasConverged = false;
         Path inputPath = parsedOutputPath;
-        while (iteration < MAX_ITERATIONS && !hasConverged) {
-            LOG.info("ITERATION #" + iteration);
+        while (iterationCount < MAX_ITERATIONS && !hasConverged) {
+            LOG.info("ITERATION #" + iterationCount);
 
-            conf.setInt("current.iteration", iteration);
-
-            Path outputPath = new Path("data/pagerank/depth_" + iteration);
+            Path outputPath = new Path("data/pagerank/depth_" + iterationCount);
             if (fs.exists(outputPath))
                 fs.delete(outputPath, true);
-            String jobname = "Pagerank computation job iteration " + iteration;
-            hasConverged = runPagerankIteration(conf, jobname, inputPath, outputPath);
 
-            iteration++;
+            Job pargerankJob = new Job(conf, "Pagerank computation job iteration " + iterationCount);
+            pargerankJob.setJarByClass(getClass());
+            runPagerankIteration(pargerankJob, inputPath, outputPath);
+
+            long convergenceCounter = pargerankJob.getCounters()
+                    .findCounter(PagerankReducer.Counter.CONVERGED).getValue();
+            hasConverged = (convergenceCounter < INPUT_SIZE ? false : true);
+
+            iterationCount++;
             fs.delete(inputPath, true);
             inputPath = outputPath;
         }
@@ -68,15 +84,8 @@ public class PagerankMRDriver extends Configured implements Tool {
         return JobStatus.SUCCEEDED;
     }
 
-    private boolean parseCrawlData(Configuration conf, String jobName, Path input, Path output)
-            throws IOException, InterruptedException, ClassNotFoundException {
-        FileSystem fs = FileSystem.get(conf);
-        if (fs.exists(output))
-            fs.delete(output, true);
-
-        Job job = new Job(conf, jobName);
-        job.setJarByClass(getClass());
-
+    private boolean parseCrawlData(Job job, Path input, Path output) throws IOException,
+            InterruptedException, ClassNotFoundException {
         job.setMapperClass(ParseUrlMapper.class);
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(Text.class);
@@ -92,15 +101,8 @@ public class PagerankMRDriver extends Configured implements Tool {
         return job.waitForCompletion(true);
     }
 
-    private boolean runPagerankIteration(Configuration conf, String jobName, Path input, Path output)
-            throws IOException, InterruptedException, ClassNotFoundException {
-        FileSystem fs = FileSystem.get(conf);
-        if (fs.exists(output))
-            fs.delete(output, true);
-
-        Job job = new Job(conf, jobName);
-        job.setJarByClass(getClass());
-
+    private boolean runPagerankIteration(Job job, Path input, Path output) throws IOException,
+            InterruptedException, ClassNotFoundException {
         job.setMapperClass(PagerankMapper.class);
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(Text.class);
@@ -113,14 +115,6 @@ public class PagerankMRDriver extends Configured implements Tool {
         job.setOutputFormatClass(SequenceFileOutputFormat.class);
         SequenceFileOutputFormat.setOutputPath(job, output);
 
-        boolean completed = job.waitForCompletion(true);
-        if (!completed)
-            throw new IOException("job has not completed successfully!");
-
-        long convergenceCounter = job.getCounters().findCounter(PagerankReducer.Counter.CONVERGED)
-                .getValue();
-        LOG.info("PagerankReducer Counter: " + convergenceCounter);
-
-        return convergenceCounter >= 100 ? true : false;
+        return job.waitForCompletion(true);
     }
 }
