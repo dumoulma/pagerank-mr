@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+import org.apache.commons.math3.distribution.NormalDistribution;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.FileSystem;
@@ -26,10 +27,13 @@ public class DataGenerator extends Configured implements Tool {
     private static final Logger LOG = LoggerFactory.getLogger(DataGenerator.class);
 
     private static final String INTPUT_VOCAB_FILENAME = "data/vocab/english_words.txt";
-    private static final String OUTPUT_SEQ_FILENAME = "data/parsed_crawl_data.seq";
-    private static final int MAX_URLS = 25;
-    private static final int MAX_OUTLINKS = 5;
+    private static final String OUTPUT_SEQ_FILENAME = "data/pagerank/parsed_crawl_data.seq";
+    private static final int MAX_URLS = 100;
+    private static final int AVERAGE_OUTLINKS = 10;
     private static final int MAX_WORDS_IN_URL = 2;
+
+    private static NormalDistribution norm = new NormalDistribution(AVERAGE_OUTLINKS,
+            AVERAGE_OUTLINKS / 2);
     private static Random random = new Random();
 
     public static void main(String[] args) throws Exception {
@@ -58,7 +62,7 @@ public class DataGenerator extends Configured implements Tool {
         }
         LOG.info("Vocab words read: " + wordCount);
 
-        urls = generateUrls(words, domains);
+        urls = generateUrls(words, domains, MAX_URLS);
 
         int urlWrittenCount = 0;
         Configuration conf = getConf();
@@ -76,18 +80,21 @@ public class DataGenerator extends Configured implements Tool {
         return JobStatus.SUCCEEDED;
     }
 
-    private List<String> generateUrls(List<String> words, List<String> domains) {
+    private List<String> generateUrls(List<String> words, List<String> domains,
+            int maxUrlsToGenerate) {
+
         List<String> urls = new ArrayList<>();
-        for (int i = 0; i < MAX_URLS; i++) {
+        for (int i = 0; i < maxUrlsToGenerate; i++) {
             int nWords = random.nextInt(MAX_WORDS_IN_URL) + 1;
-            StringBuilder url = new StringBuilder("http://www");
+            StringBuilder url = new StringBuilder("http://www.");
             for (int j = 0; j < nWords; j++) {
                 int wordIndex = random.nextInt(words.size());
-                url.append("." + words.get(wordIndex));
+                url.append(words.get(wordIndex));
             }
             url.append(domains.get(random.nextInt(domains.size())));
-            if (url.indexOf("..") != -1) {
-                LOG.warn("Malformed URL: " + url.toString());
+            if (urls.contains(url)) {
+                --i;
+                continue;
             }
             urls.add(url.toString());
         }
@@ -101,30 +108,10 @@ public class DataGenerator extends Configured implements Tool {
         Text key = new Text();
         Text value = new Text();
         for (String url : urls) {
-            key.set(url);
-            int nOutLinks = random.nextInt(MAX_OUTLINKS);
-            if (nOutLinks == 0)
-                nOutLinks += random.nextInt(MAX_OUTLINKS);
-            
-            List<String> outlinks = new ArrayList<>();
-            for (int i = 0; i < nOutLinks; i++) {
-                int outLinkIndex = random.nextInt(urls.size());
-                String outlink = urls.get(outLinkIndex);
-                while (outlink.equals(url))
-                    outlink = urls.get(random.nextInt(urls.size()));
-                if (!outlinks.contains(outlink)) {
-                    outlinks.add(outlink);
-                }
-            }
-            StringBuilder sb = new StringBuilder();
-            for (String outlink : outlinks) {
-                sb.append(outlink + ";");
-            }
-            if (sb.length() > 0) {
-                sb.deleteCharAt(sb.length() - 1);
-            }
+            String links = generateListOfLinks(urls, url);
 
-            value.set(sb.toString());
+            key.set(url);
+            value.set(links);
             writer.append(key, value);
 
             urlWrittenCount++;
@@ -132,6 +119,34 @@ public class DataGenerator extends Configured implements Tool {
         }
 
         return urlWrittenCount;
+    }
+
+    private String generateListOfLinks(List<String> urls, String url) {
+        int nOutLinks = (int) norm.sample();
+
+        // // reduce the chance of 0 outlinks
+        // if (nOutLinks == 0) {
+        // nOutLinks += random.nextInt(AVERAGE_OUTLINKS);
+        // }
+
+        List<String> outlinks = new ArrayList<>();
+        for (int i = 0; i < nOutLinks; i++) {
+            int outLinkIndex = random.nextInt(urls.size());
+            String outlink = urls.get(outLinkIndex);
+            while (outlink.equals(url))
+                outlink = urls.get(random.nextInt(urls.size()));
+            if (!outlinks.contains(outlink)) {
+                outlinks.add(outlink);
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        for (String outlink : outlinks) {
+            sb.append(outlink + ";");
+        }
+        if (sb.length() > 0) {
+            sb.deleteCharAt(sb.length() - 1);
+        }
+        return sb.toString();
     }
 
 }

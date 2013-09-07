@@ -23,7 +23,7 @@ public class PagerankMapper extends Mapper<Text, Text, Text, Text> {
         Text key2 = new Text();
         for (int i = 1; i < outlinks.length; i++) {
             String outlink = outlinks[i];
-            key2.set(outlink + ";" + pagerank);
+            key2.set(outlink);
             value2.set(key.toString() + ";" + pagerank + ";" + outlinkCount);
             context.write(key2, value2);
 

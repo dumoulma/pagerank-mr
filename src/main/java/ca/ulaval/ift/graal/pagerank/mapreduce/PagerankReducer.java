@@ -15,15 +15,11 @@ public class PagerankReducer extends Reducer<Text, Text, Text, Text> {
 
     private static final double DEFAULT_DAMPING_FACTOR = 0.85;
     private double dampingFactor;
-    private static final double DEFAULT_CONVERGENCE_THRESHOLD = 0.001;
-    private double convergence_threshold;
+    // private static final double DEFAULT_CONVERGENCE_THRESHOLD = 0.001;
+    // private double convergence_threshold;
     private int N = 1;
     private static int DEFAULT_ROUNDING_PRECISION = 5;
     private int roundingPrecision;
-
-    public static enum Counter {
-        CONVERGED,
-    }
 
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
@@ -31,8 +27,6 @@ public class PagerankReducer extends Reducer<Text, Text, Text, Text> {
         Configuration conf = context.getConfiguration();
 
         dampingFactor = conf.getFloat("damping.factor", (float) DEFAULT_DAMPING_FACTOR);
-        convergence_threshold = conf.getFloat("convergence.threshold",
-                (float) DEFAULT_CONVERGENCE_THRESHOLD);
         N = conf.getInt("input.size", N);
         roundingPrecision = conf.getInt("rounding.precision", DEFAULT_ROUNDING_PRECISION);
     }
@@ -40,34 +34,27 @@ public class PagerankReducer extends Reducer<Text, Text, Text, Text> {
     @Override
     public void reduce(Text key, Iterable<Text> values, Context context) throws IOException,
             InterruptedException {
-        String[] keyFields = key.toString().split(";");
-        String url = keyFields[0];
-        double oldPagerank = Double.parseDouble(keyFields[1]);
+        String url = key.toString();
 
-        LOG.debug("key: " + key);
+        LOG.debug("PROCESSING URL: " + url);
+
         double pagerank = 0.0;
         StringBuilder outlinks = new StringBuilder();
         for (Text value : values) {
+            LOG.debug("PROCESSING: " + value);
+
             String[] fields = value.toString().split(";");
             outlinks.append(fields[0] + ";");
             pagerank += Double.parseDouble(fields[1]) / Integer.parseInt(fields[2]);
         }
-        pagerank *= dampingFactor/N;
-        pagerank += (1 - dampingFactor)/N;
+        pagerank *= dampingFactor;
+        pagerank += (1 - dampingFactor) / N;
         pagerank = Util.round(pagerank, roundingPrecision);
 
-        if (isConverged(oldPagerank, pagerank)) {
-            context.getCounter(Counter.CONVERGED).increment(1);
-            LOG.debug("CONVERGED! " + url + " pagerank is: " + pagerank);
-        }
-        double pagerankChange = Util.round(pagerank - oldPagerank, 5);
-        LOG.debug("url: " + url + " pagerank: " + pagerank + " change: " + pagerankChange);
-
         key.set(url);
-        context.write(key, new Text(pagerank + ";" + outlinks.toString()));
-    }
+        Text value = new Text(pagerank + ";" + outlinks);
+        context.write(key, value);
 
-    private boolean isConverged(double oldValue, double newValue) {
-        return Math.abs(oldValue - newValue) < convergence_threshold;
+        LOG.debug("OUTPUT: key: " + key + " Value: " + value);
     }
 }
